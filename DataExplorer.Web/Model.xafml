@@ -11,11 +11,26 @@
       </Item>
       <Item Id="Default" Caption="Common Items" Index="1">
         <Items>
+          <Item Id="Account_ListView" Index="-1" Removed="True" />
           <Item Id="DataLoadMap_ListView" Index="0" Caption="Data Load" Removed="True" />
           <Item Id="FieldMap_ListView" Index="2" Removed="True" />
           <Item Id="ObjectFields_ListView" Index="3" Removed="True" />
-          <Item Id="Account_ListView" Index="4" />
+          <Item Id="Attribute_ListView" Caption="Attributes" />
+          <Item Id="BusinessGoal_ListView" Caption="Business Goals" />
+          <Item Id="BusinessInitiative_ListView" Caption="Business Initiatives" />
+          <Item Id="DataDeliveryChannel_ListView" Caption="Data Delivery Channels" />
+          <Item Id="DataDeliveryMethod_ListView" Caption="Data Delivery Methods" />
+          <Item Id="DataDiscoveryMethod_ListView" Caption="Data Discovery Methods" />
+          <Item Id="DataFormat_ListView" Caption="Data Formats" />
+          <Item Id="DataSource_ListView" Caption="Data Sources" />
+          <Item Id="Employee_ListView" Caption="Employees" />
+          <Item Id="Entity_ListView" Caption="Entities" />
           <Item Id="Event_ListView" Removed="True" />
+          <Item Id="InformationComponent_ListView" Caption="Information Components" />
+          <Item Id="PerformanceMetric_ListView" Caption="Performance Metrics" />
+          <Item Id="PerformanceMetricTrackingMethod_ListView" Caption="Performance Metric Tracking Methods" />
+          <Item Id="SubjectArea_ListView" Caption="Subject Areas" />
+          <Item Id="Synonim_ListView" Caption="Synonims" />
         </Items>
       </Item>
       <Item Id="@21be38d3-7d35-48eb-9853-6f89fdc40d71" Caption="Schedules" Index="2" IsNewNode="True">

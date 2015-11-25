@@ -54,6 +54,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<PerformanceMetric> BusinessGoalPerformanceMetrics
         { get { return GetCollection<PerformanceMetric>("BusinessGoalPerformanceMetrics"); } }
 
+        [Association("BusinessGoalDataDeliveryChannel", typeof(DataDeliveryChannel))]
+        public XPCollection<DataDeliveryChannel> BusinessGoalDataDeliveryChannels
+        { get { return GetCollection<DataDeliveryChannel>("BusinessGoalDataDeliveryChannels"); } }
+
         private string goalName;
         [Size(SizeAttribute.Unlimited)]
         public string GoalName

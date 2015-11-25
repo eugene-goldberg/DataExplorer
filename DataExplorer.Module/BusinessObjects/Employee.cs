@@ -50,6 +50,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Entity> OwnedEntities
         { get { return GetCollection<Entity>("OwnedEntities"); } }
 
+        [Association("GovernanceEmployee", typeof(Governance))]
+        public XPCollection<Governance> GovernsOver
+        { get { return GetCollection<Governance>("GovernsOver"); } }
+
         private string firstName;
         [Size(SizeAttribute.Unlimited)]
         public string FirstName

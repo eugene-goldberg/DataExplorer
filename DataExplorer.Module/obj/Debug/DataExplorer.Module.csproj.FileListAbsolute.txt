@@ -6,4 +6,3 @@ c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.
 c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.pdb
 C:\Users\eugene\Documents\Visual Studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.Controllers.ViewController_DataLoadMap_FieldMaps_ListView.resources
 C:\Users\eugene\Documents\Visual Studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.dll.licenses
-C:\Users\eugene\Documents\Visual Studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.csprojResolveAssemblyReference.cache

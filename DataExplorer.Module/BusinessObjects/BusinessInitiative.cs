@@ -46,6 +46,10 @@ namespace DataExplorer.Module.BusinessObjects
         //    this.PersistentProperty = "Paid";
         //}
 
+        [Association("BusinessInitiativeSubjectArea", typeof(SubjectArea))]
+        public XPCollection<SubjectArea> BusinessInitiativeSubjectAreas
+        { get { return GetCollection<SubjectArea>("BusinessInitiativeSubjectAreas"); } }
+
         [Association("BusinessInitiativeGoal", typeof(BusinessGoal))]
         public XPCollection<BusinessGoal> BusinessInitiativeGoals
         { get { return GetCollection<BusinessGoal>("BusinessInitiativeGoals"); } }
@@ -53,6 +57,10 @@ namespace DataExplorer.Module.BusinessObjects
         [Association("BusinessInitiativePerformanceMetrics", typeof(PerformanceMetric))]
         public XPCollection<PerformanceMetric> BusinessInitiativePerformanceMetrics
         { get { return GetCollection<PerformanceMetric>("BusinessInitiativePerformanceMetrics"); } }
+
+        [Association("GovernanceBusinessInitiative", typeof(Governance))]
+        public XPCollection<Governance> BusinessInitiativeGovernance
+        { get { return GetCollection<Governance>("BusinessInitiativeGovernance"); } }
 
         private string initiativeName;
         [Size(SizeAttribute.Unlimited)]

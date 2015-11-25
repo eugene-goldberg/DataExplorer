@@ -20,9 +20,9 @@ namespace DataExplorer.Module.BusinessObjects
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112701.aspx).
-    public class DataDeliveryChannel : BaseObject
+    public class Governance : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-        public DataDeliveryChannel(Session session)
+        public Governance(Session session)
             : base(session)
         {
         }
@@ -46,33 +46,29 @@ namespace DataExplorer.Module.BusinessObjects
         //    this.PersistentProperty = "Paid";
         //}
 
-        [Association("DataDeliveryChannelDeliveryMethod", typeof(DataDeliveryMethod))]
-        public XPCollection<DataDeliveryMethod> DataDeliveryMethods
-        { get { return GetCollection<DataDeliveryMethod>("DataDeliveryMethods"); } }
+        [Association("GovernanceBusinessInitiative", typeof(BusinessInitiative))]
+        public XPCollection<BusinessInitiative> GovernedBusinessInitiatives
+        { get { return GetCollection<BusinessInitiative>("GovernedBusinessInitiatives"); } }
 
-        [Association("DataDeliveryChannelDataSource", typeof(DataSource))]
-        public XPCollection<DataSource> ChannelDataSources
-        { get { return GetCollection<DataSource>("ChannelDataSources"); } }
+        [Association("GovernanceEmployee", typeof(Employee))]
+        public XPCollection<Employee> GoverningEmployees
+        { get { return GetCollection<Employee>("GoverningEmployees"); } }
 
-        [Association("DataDeliveryChannelDataFormat", typeof(DataFormat))]
-        public XPCollection<DataFormat> ChannelDataFormats
-        { get { return GetCollection<DataFormat>("ChannelDataFormats"); } }
+        [Association("GovernanceSubjectArea", typeof(SubjectArea))]
+        public XPCollection<SubjectArea> GovernedSubjectAreas
+        { get { return GetCollection<SubjectArea>("GovernedSubjectAreas"); } }
 
-        [Association("BusinessGoalDataDeliveryChannel", typeof(BusinessGoal))]
-        public XPCollection<BusinessGoal> DataDeliveryChannelBusinessGoals
-        { get { return GetCollection<BusinessGoal>("DataDeliveryChannelBusinessGoals"); } }
-
-        private string channelName;
+        private string name;
         [Size(SizeAttribute.Unlimited)]
-        public string ChannelName
+        public string Name
         {
-            get { return channelName; }
+            get { return name; }
             set
             {
-                string oldValue = ChannelName;
+                string oldValue = Name;
                 if (oldValue == value) return;
-                channelName = value;
-                OnChanged("ChannelName", oldValue, value);
+                name = value;
+                OnChanged("Name", oldValue, value);
             }
         }
 

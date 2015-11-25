@@ -142,6 +142,7 @@
     <Compile Include="BusinessObjects\DataSource.cs" />
     <Compile Include="BusinessObjects\Employee.cs" />
     <Compile Include="BusinessObjects\Entity.cs" />
+    <Compile Include="BusinessObjects\Governance.cs" />
     <Compile Include="BusinessObjects\InformationComponent.cs" />
     <Compile Include="BusinessObjects\PerformanceMetric.cs" />
     <Compile Include="BusinessObjects\PerformanceMetricTrackingMethod.cs" />

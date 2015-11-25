@@ -1,0 +1,14 @@
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Win.exe.config
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\Model.xafml
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Win.exe
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Win.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Module.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Module.Win.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Module.Win.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\bin\Debug\DataExplorer.Module.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\obj\Debug\DataExplorer.Win.csprojResolveAssemblyReference.cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\obj\Debug\DataExplorer.Win.Properties.Resources.resources
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\obj\Debug\DataExplorer.Win.DataExplorerWindowsFormsApplication.resources
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\obj\Debug\DataExplorer.Win.csproj.GenerateResource.Cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\obj\Debug\DataExplorer.Win.exe
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Win\obj\Debug\DataExplorer.Win.pdb

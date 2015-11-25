@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="logo.png">
+  <NavigationItems>
+    <Items>
+      <Item Id="@535a41d5-32e7-4080-90df-d8e7ff8d8a3a" Caption="Data Management" Index="0" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="DataLoadMap_ListView" Index="0" Caption="Data Load" ObjectKey="" ViewId="DataLoadMap_ListView" IsNewNode="True" />
+          <Item Id="FieldMap_ListView" Index="2" ViewId="FieldMap_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ObjectFields_ListView" Index="3" ViewId="ObjectFields_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Caption="Common Items" Index="1">
+        <Items>
+          <Item Id="DataLoadMap_ListView" Index="0" Caption="Data Load" Removed="True" />
+          <Item Id="FieldMap_ListView" Index="2" Removed="True" />
+          <Item Id="ObjectFields_ListView" Index="3" Removed="True" />
+          <Item Id="Account_ListView" Index="4" />
+          <Item Id="Event_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="@21be38d3-7d35-48eb-9853-6f89fdc40d71" Caption="Schedules" Index="2" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Event_ListView" ViewId="Event_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Index="3" />
+      <Item Id="KPI" Index="4" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerAspNetModule" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SystemAspNetModule" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="15.1.8.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Account_ListView">
+      <Columns>
+        <ColumnInfo Id="ContractExpiryDate" Index="-1" />
+        <ColumnInfo Id="ContractStartDate" Index="-1" />
+        <ColumnInfo Id="CurrentContractYear" Index="-1" />
+        <ColumnInfo Id="IdoGoLiveDate" Index="-1" />
+        <ColumnInfo Id="IdoStabilisationDate" Index="-1" />
+        <ColumnInfo Id="AhgAccountName" Index="1" />
+        <ColumnInfo Id="BeaconAccountName" Index="2" />
+        <ColumnInfo Id="ContractLexbaseAccountName" Index="3" />
+        <ColumnInfo Id="CustomerH1" Index="4" />
+        <ColumnInfo Id="CustomerH2" Index="5" />
+        <ColumnInfo Id="FocusAccountName" Index="6" />
+        <ColumnInfo Id="EmsrtAccountName" Index="7" />
+        <ColumnInfo Id="GcrlAccountName" Index="8" />
+        <ColumnInfo Id="SapAccountName" Index="9" />
+        <ColumnInfo Id="SapClientGroup" Index="10" />
+        <ColumnInfo Id="SfdcAccountName" Index="11" />
+        <ColumnInfo Id="SnowAccountName" Index="12" />
+        <ColumnInfo Id="T3Name" Index="13" />
+        <ColumnInfo Id="VocAccountName" Index="14" />
+        <ColumnInfo Id="Customer" Index="15" />
+        <ColumnInfo Id="DataInCscBi" Index="16" />
+        <ColumnInfo Id="CscBiPhase" Index="17" />
+      </Columns>
+    </ListView>
+    <ListView Id="Attribute_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DataLoadMap_DetailView" Caption="Data Load" />
+    <ListView Id="DataLoadMap_ListView" Caption="Data Load" />
+    <ListView Id="DataSource_ListView">
+      <Columns>
+        <ColumnInfo Id="Id" Index="0" />
+        <ColumnInfo Id="SubjectArea" Index="1" />
+        <ColumnInfo Id="Category" Index="2" />
+        <ColumnInfo Id="SourceSystemName" Index="3" />
+        <ColumnInfo Id="Source" Index="4" />
+        <ColumnInfo Id="AlternativeSource" Index="5" />
+        <ColumnInfo Id="AccessPoint" Index="6" />
+        <ColumnInfo Id="AccountableDataOwner" Index="7" />
+        <ColumnInfo Id="DataOwner" Index="8" />
+        <ColumnInfo Id="ToolTechnicalSupport" Index="9" />
+        <ColumnInfo Id="Issue" Index="10" />
+        <ColumnInfo Id="Action" Index="11" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_ListView">
+      <Columns>
+        <ColumnInfo Id="MiddleInitial" Index="1" />
+        <ColumnInfo Id="LastName" Index="2" />
+        <ColumnInfo Id="Email" Index="3" />
+        <ColumnInfo Id="PhoneNumber" Index="4" />
+        <ColumnInfo Id="FunctionalRole" Index="5" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Entity_DetailView">
+      <Items>
+        <PropertyEditor Id="PrimaryEntity" Index="-1" />
+      </Items>
+    </DetailView>
+    <ListView Id="Entity_ListView">
+      <Columns>
+        <ColumnInfo Id="PrimaryEntity" Index="-1" />
+        <ColumnInfo Id="EntityDefinition" Index="1" />
+        <ColumnInfo Id="CorrespondingLdeName" Index="2" />
+        <ColumnInfo Id="Usage" Index="3" />
+        <ColumnInfo Id="InformationContext" Index="4" />
+        <ColumnInfo Id="Coverage" Index="5" />
+        <ColumnInfo Id="Comments" Index="6" />
+        <ColumnInfo Id="RelationshipType" Index="7" />
+      </Columns>
+    </ListView>
+    <ListView Id="InformationComponent_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="SubjectArea_ListView">
+      <Columns>
+        <ColumnInfo Id="Purpose" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Synonim_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

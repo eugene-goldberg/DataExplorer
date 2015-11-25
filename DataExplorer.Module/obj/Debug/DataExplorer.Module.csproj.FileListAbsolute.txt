@@ -1,0 +1,8 @@
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\bin\Debug\DataExplorer.Module.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\bin\Debug\DataExplorer.Module.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.DataExplorerModule.resources
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.csproj.GenerateResource.Cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.pdb
+C:\Users\eugene\Documents\Visual Studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.Controllers.ViewController_DataLoadMap_FieldMaps_ListView.resources
+C:\Users\eugene\Documents\Visual Studio 2013\Projects\DataExplorer\DataExplorer.Module\obj\Debug\DataExplorer.Module.dll.licenses

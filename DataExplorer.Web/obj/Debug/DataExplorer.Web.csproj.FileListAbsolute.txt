@@ -1,0 +1,13 @@
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Web.dll.config
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Web.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Web.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Module.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Module.Web.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Module.Web.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\bin\DataExplorer.Module.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\obj\Debug\DataExplorer.Web.csprojResolveAssemblyReference.cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\obj\Debug\DataExplorer.Web.DataExplorerAspNetApplication.resources
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\obj\Debug\DataExplorer.Web.csproj.GenerateResource.Cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\obj\Debug\DataExplorer.Web.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\obj\Debug\DataExplorer.Web.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Web\obj\Debug\DataExplorer.Web.dll.licenses

@@ -1,0 +1,9 @@
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\bin\Debug\DataExplorer.Module.Win.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\bin\Debug\DataExplorer.Module.Win.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\bin\Debug\DataExplorer.Module.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\bin\Debug\DataExplorer.Module.pdb
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\obj\Debug\DataExplorer.Module.Win.csprojResolveAssemblyReference.cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\obj\Debug\DataExplorer.Module.Win.DataExplorerWindowsFormsModule.resources
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\obj\Debug\DataExplorer.Module.Win.csproj.GenerateResource.Cache
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\obj\Debug\DataExplorer.Module.Win.dll
+c:\users\eugene\documents\visual studio 2013\Projects\DataExplorer\DataExplorer.Module.Win\obj\Debug\DataExplorer.Module.Win.pdb

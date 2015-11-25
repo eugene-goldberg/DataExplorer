@@ -93,6 +93,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<SubjectArea> EntitySubjectAreas
         { get { return GetCollection<SubjectArea>("EntitySubjectAreas"); } }
 
+        [Association("InformationComponentEntity", typeof(InformationComponent))]
+        public XPCollection<InformationComponent> EntityInformationComponents
+        { get { return GetCollection<InformationComponent>("EntityInformationComponents"); } }
+
 
 
         private string entityName;

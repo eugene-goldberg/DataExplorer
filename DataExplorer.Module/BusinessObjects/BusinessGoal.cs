@@ -14,16 +14,15 @@ using DevExpress.Persistent.Validation;
 
 namespace DataExplorer.Module.BusinessObjects
 {
-    //Test commit
     [DefaultClassOptions]
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112701.aspx).
-    public class InformationComponent : BaseObject
+    public class BusinessGoal : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-        public InformationComponent(Session session)
+        public BusinessGoal(Session session)
             : base(session)
         {
         }
@@ -47,25 +46,25 @@ namespace DataExplorer.Module.BusinessObjects
         //    this.PersistentProperty = "Paid";
         //}
 
-        [Association("SubjectAreaInformationComponent", typeof(SubjectArea))]
-        public XPCollection<SubjectArea> InformationComponentsSubjectArea
-        { get { return GetCollection<SubjectArea>("InformationComponentsSubjectArea"); } }
+        [Association("BusinessInitiativeGoal", typeof(BusinessInitiative))]
+        public XPCollection<BusinessInitiative> BusinessGoalInitiative
+        { get { return GetCollection<BusinessInitiative>("BusinessGoalInitiative"); } }
 
-        [Association("InformationComponentEntity", typeof(Entity))]
-        public XPCollection<Entity> InformationComponentsEntities
-        { get { return GetCollection<Entity>("InformationComponentsEntities"); } }
+        [Association("BusinessGoalPerformanceMetrics", typeof(PerformanceMetric))]
+        public XPCollection<PerformanceMetric> BusinessGoalPerformanceMetrics
+        { get { return GetCollection<PerformanceMetric>("BusinessGoalPerformanceMetrics"); } }
 
-        private string name;
+        private string goalName;
         [Size(SizeAttribute.Unlimited)]
-        public string Name
+        public string GoalName
         {
-            get { return name; }
+            get { return goalName; }
             set
             {
-                string oldValue = Name;
+                string oldValue = GoalName;
                 if (oldValue == value) return;
-                name = value;
-                OnChanged("Name", oldValue, value);
+                goalName = value;
+                OnChanged("GoalName", oldValue, value);
             }
         }
 

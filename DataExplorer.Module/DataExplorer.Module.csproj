@@ -132,11 +132,16 @@
   <ItemGroup>
     <Compile Include="BusinessObjects\Account.cs" />
     <Compile Include="BusinessObjects\Attribute.cs" />
+    <Compile Include="BusinessObjects\BusinessGoal.cs" />
+    <Compile Include="BusinessObjects\BusinessInitiative.cs" />
+    <Compile Include="BusinessObjects\DataDiscoveryMethod.cs" />
     <Compile Include="BusinessObjects\DataLoadMap.cs" />
     <Compile Include="BusinessObjects\DataSource.cs" />
     <Compile Include="BusinessObjects\Employee.cs" />
     <Compile Include="BusinessObjects\Entity.cs" />
     <Compile Include="BusinessObjects\InformationComponent.cs" />
+    <Compile Include="BusinessObjects\PerformanceMetric.cs" />
+    <Compile Include="BusinessObjects\PerformanceMetricTrackingMethod.cs" />
     <Compile Include="BusinessObjects\SubjectArea.cs" />
     <Compile Include="BusinessObjects\Synonim.cs" />
     <Compile Include="Controllers\ViewController_DataLoadMap_FieldMaps_ListView.cs">

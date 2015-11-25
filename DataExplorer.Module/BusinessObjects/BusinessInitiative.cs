@@ -14,16 +14,15 @@ using DevExpress.Persistent.Validation;
 
 namespace DataExplorer.Module.BusinessObjects
 {
-    //Test commit
     [DefaultClassOptions]
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112701.aspx).
-    public class InformationComponent : BaseObject
+    public class BusinessInitiative : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
-        public InformationComponent(Session session)
+        public BusinessInitiative(Session session)
             : base(session)
         {
         }
@@ -47,25 +46,25 @@ namespace DataExplorer.Module.BusinessObjects
         //    this.PersistentProperty = "Paid";
         //}
 
-        [Association("SubjectAreaInformationComponent", typeof(SubjectArea))]
-        public XPCollection<SubjectArea> InformationComponentsSubjectArea
-        { get { return GetCollection<SubjectArea>("InformationComponentsSubjectArea"); } }
+        [Association("BusinessInitiativeGoal", typeof(BusinessGoal))]
+        public XPCollection<BusinessGoal> BusinessInitiativeGoals
+        { get { return GetCollection<BusinessGoal>("BusinessInitiativeGoals"); } }
 
-        [Association("InformationComponentEntity", typeof(Entity))]
-        public XPCollection<Entity> InformationComponentsEntities
-        { get { return GetCollection<Entity>("InformationComponentsEntities"); } }
+        [Association("BusinessInitiativePerformanceMetrics", typeof(PerformanceMetric))]
+        public XPCollection<PerformanceMetric> BusinessInitiativePerformanceMetrics
+        { get { return GetCollection<PerformanceMetric>("BusinessInitiativePerformanceMetrics"); } }
 
-        private string name;
+        private string initiativeName;
         [Size(SizeAttribute.Unlimited)]
-        public string Name
+        public string InitiativeName
         {
-            get { return name; }
+            get { return initiativeName; }
             set
             {
-                string oldValue = Name;
+                string oldValue = InitiativeName;
                 if (oldValue == value) return;
-                name = value;
-                OnChanged("Name", oldValue, value);
+                initiativeName = value;
+                OnChanged("InitiativeName", oldValue, value);
             }
         }
 
@@ -82,6 +81,65 @@ namespace DataExplorer.Module.BusinessObjects
                 OnChanged("Description", oldValue, value);
             }
         }
+        
+
+        private string owner;
+        [Size(SizeAttribute.Unlimited)]
+        public string Owner
+        {
+            get { return owner; }
+            set
+            {
+                string oldValue = Owner;
+                if (oldValue == value) return;
+                owner = value;
+                OnChanged("Owner", oldValue, value);
+            }
+        }
+
+        private DateTime startDate;
+
+        public DateTime StartDate
+        {
+            get { return startDate; }
+            set
+            {
+                DateTime oldValue = StartDate;
+                if (oldValue == value) return;
+                startDate = value;
+                OnChanged("StartDate", oldValue, value);
+            }
+        }
+
+        private DateTime endDate;
+
+        public DateTime EndDate
+        {
+            get { return endDate; }
+            set
+            {
+                DateTime oldValue = EndDate;
+                if (oldValue == value) return;
+                endDate = value;
+                OnChanged("EndDate", oldValue, value);
+            }
+        }
+
+        private string currentStatus;
+        [Size(SizeAttribute.Unlimited)]
+        public string CurrentStatus
+        {
+            get { return currentStatus; }
+            set
+            {
+                string oldValue = CurrentStatus;
+                if (oldValue == value) return;
+                currentStatus = value;
+                OnChanged("CurrentStatus", oldValue, value);
+            }
+        }
+        
+        
         
         
     }

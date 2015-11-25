@@ -25962,3 +25962,753 @@ Loaded assemblies
 25.11.15 09:20:44.795	iz20bksvbyv1215fn2s3aznl	Action 'Cancel' done
 25.11.15 09:20:44.827	iz20bksvbyv1215fn2s3aznl	Save model changes
 25.11.15 09:20:44.831	iz20bksvbyv1215fn2s3aznl	===================
+25.11.15 09:38:16.407	szioogb3c13gdg5bvcdu5ro5	================================================================================
+25.11.15 09:38:16.411	szioogb3c13gdg5bvcdu5ro5	Trace Log for /LM/W3SVC/2/ROOT-1-130929394941528085 is started
+25.11.15 09:38:16.414	szioogb3c13gdg5bvcdu5ro5	================================================================================
+25.11.15 09:38:16.418	szioogb3c13gdg5bvcdu5ro5	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 15.1.8.0
+Application config
+	Modules=
+	ErrorReportEmail=
+	ErrorReportEmailServer=
+	SimpleErrorReportPage=
+	RichErrorReportPage=Error.aspx
+	EnableDiagnosticActions=False
+25.11.15 09:38:16.477	szioogb3c13gdg5bvcdu5ro5		session.Timeout: 20
+25.11.15 09:38:16.480	szioogb3c13gdg5bvcdu5ro5		SessionID: szioogb3c13gdg5bvcdu5ro5
+25.11.15 09:38:16.489	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:16.492	szioogb3c13gdg5bvcdu5ro5	Initialize Modules Manager
+25.11.15 09:38:16.495	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:16.498	szioogb3c13gdg5bvcdu5ro5	
+25.11.15 09:38:16.520	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+Loaded assemblies
+	A_38961a8a_7e0b_405b_bfd7_73d02027f198, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	App_global.asax.qqnm2nqe, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\App_global.asax.qqnm2nqe.dll
+	App_Web_feq1khum, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\App_Web_feq1khum.dll
+	DataExplorer.Module, Version=1.0.5807.17343, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\assembly\dl3\8a4cbf7b\0fa6b947_9727d101\DataExplorer.Module.dll
+	DataExplorer.Module.Web, Version=1.0.5807.17343, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\assembly\dl3\97e45c68\40532248_9727d101\DataExplorer.Module.Web.dll
+	DataExplorer.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\assembly\dl3\a5eeab6e\6001a648_9727d101\DataExplorer.Web.dll
+	DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Data.v15.1.dll
+	DevExpress.ExpressApp.Chart.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v15.1.dll
+	DevExpress.ExpressApp.Chart.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Web.v15.1.dll
+	DevExpress.ExpressApp.CloneObject.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.CloneObject.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.CloneObject.v15.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v15.1.dll
+	DevExpress.ExpressApp.FileAttachment.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Web.v15.1.dll
+	DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1.dll
+	DevExpress.ExpressApp.Images.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v15.1.dll
+	DevExpress.ExpressApp.Kpi.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Kpi.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Kpi.v15.1.dll
+	DevExpress.ExpressApp.Notifications.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v15.1.dll
+	DevExpress.ExpressApp.Notifications.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Web.v15.1.dll
+	DevExpress.ExpressApp.Objects.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v15.1.dll
+	DevExpress.ExpressApp.PivotChart.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v15.1.dll
+	DevExpress.ExpressApp.PivotChart.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Web.v15.1.dll
+	DevExpress.ExpressApp.PivotGrid.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotGrid.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotGrid.v15.1.dll
+	DevExpress.ExpressApp.PivotGrid.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotGrid.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotGrid.Web.v15.1.dll
+	DevExpress.ExpressApp.ReportsV2.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v15.1.dll
+	DevExpress.ExpressApp.ReportsV2.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Web.v15.1.dll
+	DevExpress.ExpressApp.Scheduler.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v15.1.dll
+	DevExpress.ExpressApp.Scheduler.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Web.v15.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.v15.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.Web.v15.1.dll
+	DevExpress.ExpressApp.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v15.1.dll
+	DevExpress.ExpressApp.Validation.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v15.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v15.1.dll
+	DevExpress.ExpressApp.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v15.1.dll
+	DevExpress.ExpressApp.Xpo.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v15.1.dll
+	DevExpress.Persistent.Base.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v15.1.dll
+	DevExpress.Persistent.BaseImpl.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v15.1.dll
+	DevExpress.Printing.v15.1.Core, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v15.1.Core\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Printing.v15.1.Core.dll
+	DevExpress.Utils.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Utils.v15.1.dll
+	DevExpress.Web.ASPxThemes.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxThemes.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Web.ASPxThemes.v15.1.dll
+	DevExpress.Web.ASPxTreeList.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Web.ASPxTreeList.v15.1.dll
+	DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Web.v15.1.dll
+	DevExpress.Xpo.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Xpo.v15.1.dll
+	DevExpress.XtraReports.v15.1.Web, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v15.1.Web\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.XtraReports.v15.1.Web.dll
+	Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll
+	Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
+	Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll
+	Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll
+	Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Runtime\v4.0_12.5.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Runtime.dll
+	Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Tracing\v4.0_12.5.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Tracing.dll
+	Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Web.Infrastructure\v4.0_1.0.0.0__31bf3856ad364e35\Microsoft.Web.Infrastructure.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
+	System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Services.Design\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Services.Design.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll
+	System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll
+	System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll
+	System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll
+	System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll
+	System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Web.Entity.dll
+	System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll
+	System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Mobile\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Mobile.dll
+	System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_1.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll
+	System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_2.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll
+	System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll
+	System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll
+	System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml.Hosting\v4.0_4.0.0.0__31bf3856ad364e35\System.Xaml.Hosting.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+25.11.15 09:38:16.591	szioogb3c13gdg5bvcdu5ro5	SetupModules
+25.11.15 09:38:16.704	szioogb3c13gdg5bvcdu5ro5	Customize TypesInfo
+25.11.15 09:38:17.768	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:17.771	szioogb3c13gdg5bvcdu5ro5	Start logon process
+25.11.15 09:38:17.774	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:17.777	szioogb3c13gdg5bvcdu5ro5	Checking Compatibility
+25.11.15 09:38:17.780	szioogb3c13gdg5bvcdu5ro5		ConnectionString: Data Source=.;Initial Catalog=DataExplorer;Integrated Security=SSPI;MultipleActiveResultSets=True;
+25.11.15 09:38:17.884	szioogb3c13gdg5bvcdu5ro5	Check App Name Compatibility
+25.11.15 09:38:17.887	szioogb3c13gdg5bvcdu5ro5	Check stored module versions against the versions of the loaded modules
+25.11.15 09:38:17.890	szioogb3c13gdg5bvcdu5ro5	module 'SystemModule' (DevExpress.ExpressApp.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.893	szioogb3c13gdg5bvcdu5ro5	module 'SystemAspNetModule' (DevExpress.ExpressApp.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.895	szioogb3c13gdg5bvcdu5ro5	module 'BusinessClassLibraryCustomizationModule' (DevExpress.ExpressApp.Objects.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.898	szioogb3c13gdg5bvcdu5ro5	module 'ChartModule' (DevExpress.ExpressApp.Chart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.901	szioogb3c13gdg5bvcdu5ro5	module 'CloneObjectModule' (DevExpress.ExpressApp.CloneObject.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.903	szioogb3c13gdg5bvcdu5ro5	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.906	szioogb3c13gdg5bvcdu5ro5	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.909	szioogb3c13gdg5bvcdu5ro5	module 'KpiModule' (DevExpress.ExpressApp.Kpi.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.911	szioogb3c13gdg5bvcdu5ro5	module 'NotificationsModule' (DevExpress.ExpressApp.Notifications.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.914	szioogb3c13gdg5bvcdu5ro5	module 'PivotChartModuleBase' (DevExpress.ExpressApp.PivotChart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.916	szioogb3c13gdg5bvcdu5ro5	module 'PivotGridModule' (DevExpress.ExpressApp.PivotGrid.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.919	szioogb3c13gdg5bvcdu5ro5	module 'ReportsModuleV2' (DevExpress.ExpressApp.ReportsV2.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.922	szioogb3c13gdg5bvcdu5ro5	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.924	szioogb3c13gdg5bvcdu5ro5	module 'TreeListEditorsModuleBase' (DevExpress.ExpressApp.TreeListEditors.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.925	szioogb3c13gdg5bvcdu5ro5	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:17.929	szioogb3c13gdg5bvcdu5ro5	module 'DataExplorerModule' (DataExplorer.Module). Local version: 1.0.5807.17343, Version on DB: 1.0.5807.16779
+25.11.15 09:38:17.931	szioogb3c13gdg5bvcdu5ro5	DatabaseIsOld
+25.11.15 09:38:17.941	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:17.944	szioogb3c13gdg5bvcdu5ro5	UpdateDB
+25.11.15 09:38:17.954	szioogb3c13gdg5bvcdu5ro5		ConnectionString: Data Source=.;Initial Catalog=DataExplorer;Integrated Security=SSPI;MultipleActiveResultSets=True;
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	Check App Name Compatibility
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	Check stored module versions against the versions of the loaded modules
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'SystemModule' (DevExpress.ExpressApp.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'SystemAspNetModule' (DevExpress.ExpressApp.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'BusinessClassLibraryCustomizationModule' (DevExpress.ExpressApp.Objects.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'ChartModule' (DevExpress.ExpressApp.Chart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'CloneObjectModule' (DevExpress.ExpressApp.CloneObject.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'KpiModule' (DevExpress.ExpressApp.Kpi.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'NotificationsModule' (DevExpress.ExpressApp.Notifications.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'PivotChartModuleBase' (DevExpress.ExpressApp.PivotChart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'PivotGridModule' (DevExpress.ExpressApp.PivotGrid.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'ReportsModuleV2' (DevExpress.ExpressApp.ReportsV2.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'TreeListEditorsModuleBase' (DevExpress.ExpressApp.TreeListEditors.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	module 'DataExplorerModule' (DataExplorer.Module). Local version: 1.0.5807.17343, Version on DB: 1.0.5807.16779
+25.11.15 09:38:18.103	szioogb3c13gdg5bvcdu5ro5	DatabaseIsOld
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: SystemModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: SystemAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: BusinessClassLibraryCustomizationModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: ChartModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: CloneObjectModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: ConditionalAppearanceModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: ValidationModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: KpiModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: NotificationsModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: PivotChartModuleBase. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: PivotGridModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: ReportsModuleV2. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: SchedulerModuleBase. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: TreeListEditorsModuleBase. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.257	szioogb3c13gdg5bvcdu5ro5	Module: ViewVariantsModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: DataExplorerModule. Old version: 1.0.5807.16779. New version: 1.0.5807.17343
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: ChartAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: FileAttachmentsAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: HtmlPropertyEditorAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: NotificationsAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: PivotChartAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: PivotGridAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: ReportsAspNetModuleV2. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: SchedulerAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.319	szioogb3c13gdg5bvcdu5ro5	Module: TreeListEditorsAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:38:20.355	szioogb3c13gdg5bvcdu5ro5	Module: DataExplorerAspNetModule. Old version: 1.0.5807.16780. New version: 1.0.5807.17343
+25.11.15 09:38:20.427	szioogb3c13gdg5bvcdu5ro5	Check App Name Compatibility
+25.11.15 09:38:20.432	szioogb3c13gdg5bvcdu5ro5	Check stored module versions against the versions of the loaded modules
+25.11.15 09:38:20.435	szioogb3c13gdg5bvcdu5ro5	module 'SystemModule' (DevExpress.ExpressApp.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.439	szioogb3c13gdg5bvcdu5ro5	module 'SystemAspNetModule' (DevExpress.ExpressApp.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.443	szioogb3c13gdg5bvcdu5ro5	module 'BusinessClassLibraryCustomizationModule' (DevExpress.ExpressApp.Objects.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.446	szioogb3c13gdg5bvcdu5ro5	module 'ChartModule' (DevExpress.ExpressApp.Chart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.450	szioogb3c13gdg5bvcdu5ro5	module 'CloneObjectModule' (DevExpress.ExpressApp.CloneObject.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.453	szioogb3c13gdg5bvcdu5ro5	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.456	szioogb3c13gdg5bvcdu5ro5	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.458	szioogb3c13gdg5bvcdu5ro5	module 'KpiModule' (DevExpress.ExpressApp.Kpi.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.461	szioogb3c13gdg5bvcdu5ro5	module 'NotificationsModule' (DevExpress.ExpressApp.Notifications.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.464	szioogb3c13gdg5bvcdu5ro5	module 'PivotChartModuleBase' (DevExpress.ExpressApp.PivotChart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.467	szioogb3c13gdg5bvcdu5ro5	module 'PivotGridModule' (DevExpress.ExpressApp.PivotGrid.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.469	szioogb3c13gdg5bvcdu5ro5	module 'ReportsModuleV2' (DevExpress.ExpressApp.ReportsV2.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.470	szioogb3c13gdg5bvcdu5ro5	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.473	szioogb3c13gdg5bvcdu5ro5	module 'TreeListEditorsModuleBase' (DevExpress.ExpressApp.TreeListEditors.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.476	szioogb3c13gdg5bvcdu5ro5	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.479	szioogb3c13gdg5bvcdu5ro5	module 'DataExplorerModule' (DataExplorer.Module). Local version: 1.0.5807.17343, Version on DB: 1.0.5807.17343
+25.11.15 09:38:20.481	szioogb3c13gdg5bvcdu5ro5	module 'ChartAspNetModule' (DevExpress.ExpressApp.Chart.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.484	szioogb3c13gdg5bvcdu5ro5	module 'FileAttachmentsAspNetModule' (DevExpress.ExpressApp.FileAttachment.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.485	szioogb3c13gdg5bvcdu5ro5	module 'HtmlPropertyEditorAspNetModule' (DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.489	szioogb3c13gdg5bvcdu5ro5	module 'NotificationsAspNetModule' (DevExpress.ExpressApp.Notifications.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.491	szioogb3c13gdg5bvcdu5ro5	module 'PivotChartAspNetModule' (DevExpress.ExpressApp.PivotChart.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.495	szioogb3c13gdg5bvcdu5ro5	module 'PivotGridAspNetModule' (DevExpress.ExpressApp.PivotGrid.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.497	szioogb3c13gdg5bvcdu5ro5	module 'ReportsAspNetModuleV2' (DevExpress.ExpressApp.ReportsV2.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.499	szioogb3c13gdg5bvcdu5ro5	module 'SchedulerAspNetModule' (DevExpress.ExpressApp.Scheduler.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.502	szioogb3c13gdg5bvcdu5ro5	module 'TreeListEditorsAspNetModule' (DevExpress.ExpressApp.TreeListEditors.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:38:20.504	szioogb3c13gdg5bvcdu5ro5	module 'DataExplorerAspNetModule' (DataExplorer.Module.Web). Local version: 1.0.5807.17343, Version on DB: 1.0.5807.17343
+25.11.15 09:38:20.522	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:20.524	szioogb3c13gdg5bvcdu5ro5	Logon successful
+25.11.15 09:38:20.531	szioogb3c13gdg5bvcdu5ro5	The FormsAuthentication timeout is less than the ASP.NET Session timeout: '10' and '20'. The ASP.NET Session timeout is used for FormsAuthentication.
+25.11.15 09:38:20.533	szioogb3c13gdg5bvcdu5ro5		CurrentUserName: 
+25.11.15 09:38:20.535	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:20.537	szioogb3c13gdg5bvcdu5ro5	Logon completed
+25.11.15 09:38:20.870	szioogb3c13gdg5bvcdu5ro5	The user already logged on, redirecting to the default page
+25.11.15 09:38:21.013	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:21.013	szioogb3c13gdg5bvcdu5ro5	Initialize 'ShowNavigationItem' action items
+25.11.15 09:38:21.085	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:21.087	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:38:21.091	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:38:21.094	szioogb3c13gdg5bvcdu5ro5		ID: ShowNavigationItem
+25.11.15 09:38:21.096	szioogb3c13gdg5bvcdu5ro5		Category: ViewsNavigation
+25.11.15 09:38:21.099	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:38:21.103	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Load
+25.11.15 09:38:21.135	szioogb3c13gdg5bvcdu5ro5	Action 'ShowNavigationItem' done
+25.11.15 09:38:21.147	szioogb3c13gdg5bvcdu5ro5	Generate default Model for Action containers
+25.11.15 09:38:21.662	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:38:21.665	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:38:37.200	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:37.204	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:38:37.208	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:38:37.212	szioogb3c13gdg5bvcdu5ro5		ID: ShowNavigationItem
+25.11.15 09:38:37.216	szioogb3c13gdg5bvcdu5ro5		Category: ViewsNavigation
+25.11.15 09:38:37.220	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:38:37.224	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Load
+25.11.15 09:38:37.228	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:38:37.232	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:38:37.235	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:38:37.238	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Source
+25.11.15 09:38:37.312	szioogb3c13gdg5bvcdu5ro5	Action 'ShowNavigationItem' done
+25.11.15 09:38:37.366	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:38:37.371	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:38:42.445	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:42.449	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:38:42.454	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:38:42.458	szioogb3c13gdg5bvcdu5ro5		ID: New
+25.11.15 09:38:42.461	szioogb3c13gdg5bvcdu5ro5		Category: ObjectsCreation
+25.11.15 09:38:42.465	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:38:42.468	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Source
+25.11.15 09:38:42.471	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:38:42.475	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:38:42.478	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:38:42.481	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Source
+25.11.15 09:38:42.556	szioogb3c13gdg5bvcdu5ro5	Action 'New' done
+25.11.15 09:38:42.616	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:38:42.620	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:38:52.320	szioogb3c13gdg5bvcdu5ro5	'Id' property editor: new value is '1'
+25.11.15 09:38:52.346	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:52.350	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:38:52.353	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:38:52.357	szioogb3c13gdg5bvcdu5ro5		ID: Cancel
+25.11.15 09:38:52.361	szioogb3c13gdg5bvcdu5ro5		Category: UndoRedo
+25.11.15 09:38:52.364	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:38:52.367	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Source
+25.11.15 09:38:52.371	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:38:52.375	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 1
+25.11.15 09:38:52.378	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: DataExplorer.Module.BusinessObjects.DataSource(48090a2e-e293-4669-947c-7e6159b6da8a)
+25.11.15 09:38:52.449	szioogb3c13gdg5bvcdu5ro5	Action 'Cancel' done
+25.11.15 09:38:52.510	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:38:52.514	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:38:57.832	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:57.836	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:38:57.840	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:38:57.842	szioogb3c13gdg5bvcdu5ro5		ID: ShowNavigationItem
+25.11.15 09:38:57.846	szioogb3c13gdg5bvcdu5ro5		Category: ViewsNavigation
+25.11.15 09:38:57.850	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:38:57.852	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Source
+25.11.15 09:38:57.856	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:38:57.859	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:38:57.862	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:38:57.864	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Discovery Method
+25.11.15 09:38:57.893	szioogb3c13gdg5bvcdu5ro5	Action 'ShowNavigationItem' done
+25.11.15 09:38:57.924	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:38:57.928	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:38:59.266	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:38:59.269	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:38:59.273	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:38:59.277	szioogb3c13gdg5bvcdu5ro5		ID: New
+25.11.15 09:38:59.280	szioogb3c13gdg5bvcdu5ro5		Category: ObjectsCreation
+25.11.15 09:38:59.283	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:38:59.287	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Discovery Method
+25.11.15 09:38:59.290	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:38:59.294	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:38:59.295	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:38:59.298	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Discovery Method
+25.11.15 09:38:59.327	szioogb3c13gdg5bvcdu5ro5	Action 'New' done
+25.11.15 09:38:59.364	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:38:59.367	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:01.986	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:01.990	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:01.994	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:39:01.997	szioogb3c13gdg5bvcdu5ro5		ID: Cancel
+25.11.15 09:39:02.001	szioogb3c13gdg5bvcdu5ro5		Category: UndoRedo
+25.11.15 09:39:02.004	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:39:02.007	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Discovery Method
+25.11.15 09:39:02.011	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:02.014	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 1
+25.11.15 09:39:02.017	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: DataExplorer.Module.BusinessObjects.DataDiscoveryMethod(3f4b1e87-ea6a-4aac-b1b0-611a08730799)
+25.11.15 09:39:02.050	szioogb3c13gdg5bvcdu5ro5	Action 'Cancel' done
+25.11.15 09:39:02.080	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:02.084	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:03.677	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:03.682	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:03.686	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:39:03.690	szioogb3c13gdg5bvcdu5ro5		ID: ShowNavigationItem
+25.11.15 09:39:03.693	szioogb3c13gdg5bvcdu5ro5		Category: ViewsNavigation
+25.11.15 09:39:03.696	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:39:03.699	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Discovery Method
+25.11.15 09:39:03.703	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:03.705	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:39:03.708	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:39:03.711	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Delivery Method
+25.11.15 09:39:03.741	szioogb3c13gdg5bvcdu5ro5	Action 'ShowNavigationItem' done
+25.11.15 09:39:03.772	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:03.776	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:05.310	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:05.314	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:05.317	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:39:05.321	szioogb3c13gdg5bvcdu5ro5		ID: New
+25.11.15 09:39:05.324	szioogb3c13gdg5bvcdu5ro5		Category: ObjectsCreation
+25.11.15 09:39:05.327	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:39:05.331	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Delivery Method
+25.11.15 09:39:05.333	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:05.336	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:39:05.339	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:39:05.341	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Delivery Method
+25.11.15 09:39:05.363	szioogb3c13gdg5bvcdu5ro5	Action 'New' done
+25.11.15 09:39:05.400	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:05.405	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:08.530	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:08.533	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:08.535	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:39:08.537	szioogb3c13gdg5bvcdu5ro5		ID: Cancel
+25.11.15 09:39:08.538	szioogb3c13gdg5bvcdu5ro5		Category: UndoRedo
+25.11.15 09:39:08.540	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:39:08.541	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Delivery Method
+25.11.15 09:39:08.543	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:08.544	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 1
+25.11.15 09:39:08.547	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: DataExplorer.Module.BusinessObjects.DataDeliveryMethod(e8d0e580-2efe-4b5a-8ab6-90339c3d895b)
+25.11.15 09:39:08.582	szioogb3c13gdg5bvcdu5ro5	Action 'Cancel' done
+25.11.15 09:39:08.613	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:08.617	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:14.444	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:14.448	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:14.451	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:39:14.454	szioogb3c13gdg5bvcdu5ro5		ID: ShowNavigationItem
+25.11.15 09:39:14.458	szioogb3c13gdg5bvcdu5ro5		Category: ViewsNavigation
+25.11.15 09:39:14.461	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:39:14.464	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Delivery Method
+25.11.15 09:39:14.468	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:14.470	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:39:14.473	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:39:14.476	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Performance Metric Tracking Method
+25.11.15 09:39:14.507	szioogb3c13gdg5bvcdu5ro5	Action 'ShowNavigationItem' done
+25.11.15 09:39:14.543	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:14.545	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:15.801	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:15.806	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:15.808	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:39:15.811	szioogb3c13gdg5bvcdu5ro5		ID: New
+25.11.15 09:39:15.813	szioogb3c13gdg5bvcdu5ro5		Category: ObjectsCreation
+25.11.15 09:39:15.816	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:39:15.819	szioogb3c13gdg5bvcdu5ro5		Context.Name: Performance Metric Tracking Method
+25.11.15 09:39:15.822	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:15.825	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:39:15.827	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:39:15.831	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Performance Metric Tracking Method
+25.11.15 09:39:15.859	szioogb3c13gdg5bvcdu5ro5	Action 'New' done
+25.11.15 09:39:15.892	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:15.896	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:19.241	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:19.245	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:19.249	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:39:19.252	szioogb3c13gdg5bvcdu5ro5		ID: Cancel
+25.11.15 09:39:19.256	szioogb3c13gdg5bvcdu5ro5		Category: UndoRedo
+25.11.15 09:39:19.259	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:39:19.262	szioogb3c13gdg5bvcdu5ro5		Context.Name: Performance Metric Tracking Method
+25.11.15 09:39:19.265	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:19.267	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 1
+25.11.15 09:39:19.270	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: DataExplorer.Module.BusinessObjects.PerformanceMetricTrackingMethod(8b0b5b9d-4675-4766-8797-85c4598c2afe)
+25.11.15 09:39:19.303	szioogb3c13gdg5bvcdu5ro5	Action 'Cancel' done
+25.11.15 09:39:19.336	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:19.340	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:27.330	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:27.334	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:27.337	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:39:27.341	szioogb3c13gdg5bvcdu5ro5		ID: ShowNavigationItem
+25.11.15 09:39:27.345	szioogb3c13gdg5bvcdu5ro5		Category: ViewsNavigation
+25.11.15 09:39:27.348	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:39:27.350	szioogb3c13gdg5bvcdu5ro5		Context.Name: Performance Metric Tracking Method
+25.11.15 09:39:27.354	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:27.357	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:39:27.361	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:39:27.364	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Delivery Channel
+25.11.15 09:39:27.396	szioogb3c13gdg5bvcdu5ro5	Action 'ShowNavigationItem' done
+25.11.15 09:39:27.427	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:27.432	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:28.456	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:28.459	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:28.463	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:39:28.466	szioogb3c13gdg5bvcdu5ro5		ID: New
+25.11.15 09:39:28.470	szioogb3c13gdg5bvcdu5ro5		Category: ObjectsCreation
+25.11.15 09:39:28.474	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:39:28.476	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Delivery Channel
+25.11.15 09:39:28.479	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:28.481	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 0
+25.11.15 09:39:28.484	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: <not specified>
+25.11.15 09:39:28.487	szioogb3c13gdg5bvcdu5ro5		SelectedItem: Data Delivery Channel
+25.11.15 09:39:28.514	szioogb3c13gdg5bvcdu5ro5	Action 'New' done
+25.11.15 09:39:28.549	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:28.553	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:39:36.789	szioogb3c13gdg5bvcdu5ro5	--------------------------------------------------------------------------------
+25.11.15 09:39:36.792	szioogb3c13gdg5bvcdu5ro5	Execute action
+25.11.15 09:39:36.797	szioogb3c13gdg5bvcdu5ro5		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:39:36.799	szioogb3c13gdg5bvcdu5ro5		ID: Cancel
+25.11.15 09:39:36.802	szioogb3c13gdg5bvcdu5ro5		Category: UndoRedo
+25.11.15 09:39:36.806	szioogb3c13gdg5bvcdu5ro5		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:39:36.809	szioogb3c13gdg5bvcdu5ro5		Context.Name: Data Delivery Channel
+25.11.15 09:39:36.812	szioogb3c13gdg5bvcdu5ro5		Context.IsRoot: True
+25.11.15 09:39:36.815	szioogb3c13gdg5bvcdu5ro5		Context.SelectedObjects.Count: 1
+25.11.15 09:39:36.817	szioogb3c13gdg5bvcdu5ro5		Context.CurrentObject: DataExplorer.Module.BusinessObjects.DataDeliveryChannel(78719fac-9541-4a4a-a4f3-dac3a6c10fc3)
+25.11.15 09:39:36.857	szioogb3c13gdg5bvcdu5ro5	Action 'Cancel' done
+25.11.15 09:39:36.888	szioogb3c13gdg5bvcdu5ro5	Save model changes
+25.11.15 09:39:36.891	szioogb3c13gdg5bvcdu5ro5	===================
+25.11.15 09:42:37.008	xj2fd2t3olitlehwirx545lm	================================================================================
+25.11.15 09:42:37.012	xj2fd2t3olitlehwirx545lm	Trace Log for /LM/W3SVC/2/ROOT-1-130929397545729137 is started
+25.11.15 09:42:37.016	xj2fd2t3olitlehwirx545lm	================================================================================
+25.11.15 09:42:37.019	xj2fd2t3olitlehwirx545lm	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 15.1.8.0
+Application config
+	Modules=
+	ErrorReportEmail=
+	ErrorReportEmailServer=
+	SimpleErrorReportPage=
+	RichErrorReportPage=Error.aspx
+	EnableDiagnosticActions=False
+25.11.15 09:42:37.079	xj2fd2t3olitlehwirx545lm		session.Timeout: 20
+25.11.15 09:42:37.082	xj2fd2t3olitlehwirx545lm		SessionID: xj2fd2t3olitlehwirx545lm
+25.11.15 09:42:37.091	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:37.094	xj2fd2t3olitlehwirx545lm	Initialize Modules Manager
+25.11.15 09:42:37.097	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:37.100	xj2fd2t3olitlehwirx545lm	
+25.11.15 09:42:37.123	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+Loaded assemblies
+	A_32ecab8c_f90f_4d77_9df3_1db38761c794, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	App_global.asax.ezdstch4, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\App_global.asax.ezdstch4.dll
+	App_Web_aj2m0qjt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\App_Web_aj2m0qjt.dll
+	DataExplorer.Module, Version=1.0.5807.17474, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\assembly\dl3\8a4cbf7b\a7828fe3_9727d101\DataExplorer.Module.dll
+	DataExplorer.Module.Web, Version=1.0.5807.17474, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\assembly\dl3\97e45c68\fc09efe3_9727d101\DataExplorer.Module.Web.dll
+	DataExplorer.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\eugene\AppData\Local\Temp\Temporary ASP.NET Files\root\e3ffa527\be6f708b\assembly\dl3\a5eeab6e\894f7ee4_9727d101\DataExplorer.Web.dll
+	DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Data.v15.1.dll
+	DevExpress.ExpressApp.Chart.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v15.1.dll
+	DevExpress.ExpressApp.Chart.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Web.v15.1.dll
+	DevExpress.ExpressApp.CloneObject.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.CloneObject.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.CloneObject.v15.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v15.1.dll
+	DevExpress.ExpressApp.FileAttachment.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Web.v15.1.dll
+	DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1.dll
+	DevExpress.ExpressApp.Images.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Images.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Images.v15.1.dll
+	DevExpress.ExpressApp.Kpi.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Kpi.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Kpi.v15.1.dll
+	DevExpress.ExpressApp.Notifications.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.v15.1.dll
+	DevExpress.ExpressApp.Notifications.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Notifications.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Notifications.Web.v15.1.dll
+	DevExpress.ExpressApp.Objects.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v15.1.dll
+	DevExpress.ExpressApp.PivotChart.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v15.1.dll
+	DevExpress.ExpressApp.PivotChart.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Web.v15.1.dll
+	DevExpress.ExpressApp.PivotGrid.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotGrid.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotGrid.v15.1.dll
+	DevExpress.ExpressApp.PivotGrid.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotGrid.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotGrid.Web.v15.1.dll
+	DevExpress.ExpressApp.ReportsV2.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v15.1.dll
+	DevExpress.ExpressApp.ReportsV2.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Web.v15.1.dll
+	DevExpress.ExpressApp.Scheduler.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v15.1.dll
+	DevExpress.ExpressApp.Scheduler.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Web.v15.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.v15.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.Web.v15.1.dll
+	DevExpress.ExpressApp.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.v15.1.dll
+	DevExpress.ExpressApp.Validation.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v15.1.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v15.1.dll
+	DevExpress.ExpressApp.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v15.1.dll
+	DevExpress.ExpressApp.Xpo.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v15.1.dll
+	DevExpress.Persistent.Base.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Persistent.Base.v15.1.dll
+	DevExpress.Persistent.BaseImpl.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v15.1.dll
+	DevExpress.Printing.v15.1.Core, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v15.1.Core\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Printing.v15.1.Core.dll
+	DevExpress.Utils.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Utils.v15.1.dll
+	DevExpress.Web.ASPxThemes.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxThemes.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Web.ASPxThemes.v15.1.dll
+	DevExpress.Web.ASPxTreeList.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Web.ASPxTreeList.v15.1.dll
+	DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Web.v15.1.dll
+	DevExpress.Xpo.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v15.1\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.Xpo.v15.1.dll
+	DevExpress.XtraReports.v15.1.Web, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v15.1.Web\v4.0_15.1.8.0__b88d1754d700e49a\DevExpress.XtraReports.v15.1.Web.dll
+	Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll
+	Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll
+	Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll
+	Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll
+	Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Runtime\v4.0_12.5.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Runtime.dll
+	Microsoft.VisualStudio.Web.PageInspector.Tracing, Version=12.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Tracing\v4.0_12.5.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Tracing.dll
+	Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Web.Infrastructure\v4.0_1.0.0.0__31bf3856ad364e35\Microsoft.Web.Infrastructure.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll
+	System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Services.Design\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Services.Design.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll
+	System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll
+	System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll
+	System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll
+	System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll
+	System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Web.Entity.dll
+	System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll
+	System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Mobile\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Mobile.dll
+	System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_1.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll
+	System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.WebPages.Deployment\v4.0_2.0.0.0__31bf3856ad364e35\System.Web.WebPages.Deployment.dll
+	System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll
+	System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll
+	System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml.Hosting\v4.0_4.0.0.0__31bf3856ad364e35\System.Xaml.Hosting.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+25.11.15 09:42:37.192	xj2fd2t3olitlehwirx545lm	SetupModules
+25.11.15 09:42:37.299	xj2fd2t3olitlehwirx545lm	Customize TypesInfo
+25.11.15 09:42:38.352	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:38.355	xj2fd2t3olitlehwirx545lm	Start logon process
+25.11.15 09:42:38.357	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:38.360	xj2fd2t3olitlehwirx545lm	Checking Compatibility
+25.11.15 09:42:38.362	xj2fd2t3olitlehwirx545lm		ConnectionString: Data Source=.;Initial Catalog=DataExplorer;Integrated Security=SSPI;MultipleActiveResultSets=True;
+25.11.15 09:42:38.470	xj2fd2t3olitlehwirx545lm	Check App Name Compatibility
+25.11.15 09:42:38.473	xj2fd2t3olitlehwirx545lm	Check stored module versions against the versions of the loaded modules
+25.11.15 09:42:38.476	xj2fd2t3olitlehwirx545lm	module 'SystemModule' (DevExpress.ExpressApp.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.479	xj2fd2t3olitlehwirx545lm	module 'SystemAspNetModule' (DevExpress.ExpressApp.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.482	xj2fd2t3olitlehwirx545lm	module 'BusinessClassLibraryCustomizationModule' (DevExpress.ExpressApp.Objects.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.485	xj2fd2t3olitlehwirx545lm	module 'ChartModule' (DevExpress.ExpressApp.Chart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.487	xj2fd2t3olitlehwirx545lm	module 'CloneObjectModule' (DevExpress.ExpressApp.CloneObject.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.490	xj2fd2t3olitlehwirx545lm	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.493	xj2fd2t3olitlehwirx545lm	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.496	xj2fd2t3olitlehwirx545lm	module 'KpiModule' (DevExpress.ExpressApp.Kpi.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.499	xj2fd2t3olitlehwirx545lm	module 'NotificationsModule' (DevExpress.ExpressApp.Notifications.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.502	xj2fd2t3olitlehwirx545lm	module 'PivotChartModuleBase' (DevExpress.ExpressApp.PivotChart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.507	xj2fd2t3olitlehwirx545lm	module 'PivotGridModule' (DevExpress.ExpressApp.PivotGrid.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.508	xj2fd2t3olitlehwirx545lm	module 'ReportsModuleV2' (DevExpress.ExpressApp.ReportsV2.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.511	xj2fd2t3olitlehwirx545lm	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.514	xj2fd2t3olitlehwirx545lm	module 'TreeListEditorsModuleBase' (DevExpress.ExpressApp.TreeListEditors.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.516	xj2fd2t3olitlehwirx545lm	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.519	xj2fd2t3olitlehwirx545lm	module 'DataExplorerModule' (DataExplorer.Module). Local version: 1.0.5807.17474, Version on DB: 1.0.5807.17343
+25.11.15 09:42:38.521	xj2fd2t3olitlehwirx545lm	DatabaseIsOld
+25.11.15 09:42:38.530	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:38.531	xj2fd2t3olitlehwirx545lm	UpdateDB
+25.11.15 09:42:38.538	xj2fd2t3olitlehwirx545lm		ConnectionString: Data Source=.;Initial Catalog=DataExplorer;Integrated Security=SSPI;MultipleActiveResultSets=True;
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	Check App Name Compatibility
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	Check stored module versions against the versions of the loaded modules
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'SystemModule' (DevExpress.ExpressApp.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'SystemAspNetModule' (DevExpress.ExpressApp.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'BusinessClassLibraryCustomizationModule' (DevExpress.ExpressApp.Objects.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'ChartModule' (DevExpress.ExpressApp.Chart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'CloneObjectModule' (DevExpress.ExpressApp.CloneObject.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'KpiModule' (DevExpress.ExpressApp.Kpi.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'NotificationsModule' (DevExpress.ExpressApp.Notifications.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'PivotChartModuleBase' (DevExpress.ExpressApp.PivotChart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'PivotGridModule' (DevExpress.ExpressApp.PivotGrid.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'ReportsModuleV2' (DevExpress.ExpressApp.ReportsV2.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'TreeListEditorsModuleBase' (DevExpress.ExpressApp.TreeListEditors.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	module 'DataExplorerModule' (DataExplorer.Module). Local version: 1.0.5807.17474, Version on DB: 1.0.5807.17343
+25.11.15 09:42:38.681	xj2fd2t3olitlehwirx545lm	DatabaseIsOld
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: SystemModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: SystemAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: BusinessClassLibraryCustomizationModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: ChartModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: CloneObjectModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: ConditionalAppearanceModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: ValidationModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: KpiModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: NotificationsModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: PivotChartModuleBase. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: PivotGridModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: ReportsModuleV2. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: SchedulerModuleBase. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: TreeListEditorsModuleBase. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.850	xj2fd2t3olitlehwirx545lm	Module: ViewVariantsModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: DataExplorerModule. Old version: 1.0.5807.17343. New version: 1.0.5807.17474
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: ChartAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: FileAttachmentsAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: HtmlPropertyEditorAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: NotificationsAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: PivotChartAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: PivotGridAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: ReportsAspNetModuleV2. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: SchedulerAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.908	xj2fd2t3olitlehwirx545lm	Module: TreeListEditorsAspNetModule. Old version: 15.1.8.0. New version: 15.1.8.0
+25.11.15 09:42:40.948	xj2fd2t3olitlehwirx545lm	Module: DataExplorerAspNetModule. Old version: 1.0.5807.17343. New version: 1.0.5807.17474
+25.11.15 09:42:41.023	xj2fd2t3olitlehwirx545lm	Check App Name Compatibility
+25.11.15 09:42:41.026	xj2fd2t3olitlehwirx545lm	Check stored module versions against the versions of the loaded modules
+25.11.15 09:42:41.031	xj2fd2t3olitlehwirx545lm	module 'SystemModule' (DevExpress.ExpressApp.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.034	xj2fd2t3olitlehwirx545lm	module 'SystemAspNetModule' (DevExpress.ExpressApp.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.038	xj2fd2t3olitlehwirx545lm	module 'BusinessClassLibraryCustomizationModule' (DevExpress.ExpressApp.Objects.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.041	xj2fd2t3olitlehwirx545lm	module 'ChartModule' (DevExpress.ExpressApp.Chart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.044	xj2fd2t3olitlehwirx545lm	module 'CloneObjectModule' (DevExpress.ExpressApp.CloneObject.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.048	xj2fd2t3olitlehwirx545lm	module 'ConditionalAppearanceModule' (DevExpress.ExpressApp.ConditionalAppearance.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.051	xj2fd2t3olitlehwirx545lm	module 'ValidationModule' (DevExpress.ExpressApp.Validation.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.052	xj2fd2t3olitlehwirx545lm	module 'KpiModule' (DevExpress.ExpressApp.Kpi.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.055	xj2fd2t3olitlehwirx545lm	module 'NotificationsModule' (DevExpress.ExpressApp.Notifications.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.056	xj2fd2t3olitlehwirx545lm	module 'PivotChartModuleBase' (DevExpress.ExpressApp.PivotChart.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.059	xj2fd2t3olitlehwirx545lm	module 'PivotGridModule' (DevExpress.ExpressApp.PivotGrid.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.061	xj2fd2t3olitlehwirx545lm	module 'ReportsModuleV2' (DevExpress.ExpressApp.ReportsV2.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.064	xj2fd2t3olitlehwirx545lm	module 'SchedulerModuleBase' (DevExpress.ExpressApp.Scheduler.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.067	xj2fd2t3olitlehwirx545lm	module 'TreeListEditorsModuleBase' (DevExpress.ExpressApp.TreeListEditors.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.070	xj2fd2t3olitlehwirx545lm	module 'ViewVariantsModule' (DevExpress.ExpressApp.ViewVariantsModule.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.073	xj2fd2t3olitlehwirx545lm	module 'DataExplorerModule' (DataExplorer.Module). Local version: 1.0.5807.17474, Version on DB: 1.0.5807.17474
+25.11.15 09:42:41.077	xj2fd2t3olitlehwirx545lm	module 'ChartAspNetModule' (DevExpress.ExpressApp.Chart.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.080	xj2fd2t3olitlehwirx545lm	module 'FileAttachmentsAspNetModule' (DevExpress.ExpressApp.FileAttachment.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.083	xj2fd2t3olitlehwirx545lm	module 'HtmlPropertyEditorAspNetModule' (DevExpress.ExpressApp.HtmlPropertyEditor.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.086	xj2fd2t3olitlehwirx545lm	module 'NotificationsAspNetModule' (DevExpress.ExpressApp.Notifications.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.089	xj2fd2t3olitlehwirx545lm	module 'PivotChartAspNetModule' (DevExpress.ExpressApp.PivotChart.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.092	xj2fd2t3olitlehwirx545lm	module 'PivotGridAspNetModule' (DevExpress.ExpressApp.PivotGrid.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.095	xj2fd2t3olitlehwirx545lm	module 'ReportsAspNetModuleV2' (DevExpress.ExpressApp.ReportsV2.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.098	xj2fd2t3olitlehwirx545lm	module 'SchedulerAspNetModule' (DevExpress.ExpressApp.Scheduler.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.101	xj2fd2t3olitlehwirx545lm	module 'TreeListEditorsAspNetModule' (DevExpress.ExpressApp.TreeListEditors.Web.v15.1). Local version: 15.1.8.0, Version on DB: 15.1.8.0
+25.11.15 09:42:41.104	xj2fd2t3olitlehwirx545lm	module 'DataExplorerAspNetModule' (DataExplorer.Module.Web). Local version: 1.0.5807.17474, Version on DB: 1.0.5807.17474
+25.11.15 09:42:41.122	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:41.125	xj2fd2t3olitlehwirx545lm	Logon successful
+25.11.15 09:42:41.134	xj2fd2t3olitlehwirx545lm	The FormsAuthentication timeout is less than the ASP.NET Session timeout: '10' and '20'. The ASP.NET Session timeout is used for FormsAuthentication.
+25.11.15 09:42:41.138	xj2fd2t3olitlehwirx545lm		CurrentUserName: 
+25.11.15 09:42:41.141	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:41.145	xj2fd2t3olitlehwirx545lm	Logon completed
+25.11.15 09:42:41.475	xj2fd2t3olitlehwirx545lm	The user already logged on, redirecting to the default page
+25.11.15 09:42:41.628	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:41.628	xj2fd2t3olitlehwirx545lm	Initialize 'ShowNavigationItem' action items
+25.11.15 09:42:41.697	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:41.699	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:42:41.702	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:42:41.705	xj2fd2t3olitlehwirx545lm		ID: ShowNavigationItem
+25.11.15 09:42:41.708	xj2fd2t3olitlehwirx545lm		Category: ViewsNavigation
+25.11.15 09:42:41.710	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:42:41.713	xj2fd2t3olitlehwirx545lm		SelectedItem: Data Load
+25.11.15 09:42:41.745	xj2fd2t3olitlehwirx545lm	Action 'ShowNavigationItem' done
+25.11.15 09:42:41.757	xj2fd2t3olitlehwirx545lm	Generate default Model for Action containers
+25.11.15 09:42:42.257	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:42:42.260	xj2fd2t3olitlehwirx545lm	===================
+25.11.15 09:42:51.854	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:51.860	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:42:51.862	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:42:51.864	xj2fd2t3olitlehwirx545lm		ID: ShowNavigationItem
+25.11.15 09:42:51.868	xj2fd2t3olitlehwirx545lm		Category: ViewsNavigation
+25.11.15 09:42:51.873	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:42:51.877	xj2fd2t3olitlehwirx545lm		Context.Name: Data Load
+25.11.15 09:42:51.881	xj2fd2t3olitlehwirx545lm		Context.IsRoot: True
+25.11.15 09:42:51.884	xj2fd2t3olitlehwirx545lm		Context.SelectedObjects.Count: 0
+25.11.15 09:42:51.888	xj2fd2t3olitlehwirx545lm		Context.CurrentObject: <not specified>
+25.11.15 09:42:51.892	xj2fd2t3olitlehwirx545lm		SelectedItem: Data Delivery Channel
+25.11.15 09:42:51.931	xj2fd2t3olitlehwirx545lm	Action 'ShowNavigationItem' done
+25.11.15 09:42:51.961	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:42:51.965	xj2fd2t3olitlehwirx545lm	===================
+25.11.15 09:42:53.163	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:42:53.168	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:42:53.172	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:42:53.175	xj2fd2t3olitlehwirx545lm		ID: New
+25.11.15 09:42:53.179	xj2fd2t3olitlehwirx545lm		Category: ObjectsCreation
+25.11.15 09:42:53.182	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:42:53.185	xj2fd2t3olitlehwirx545lm		Context.Name: Data Delivery Channel
+25.11.15 09:42:53.189	xj2fd2t3olitlehwirx545lm		Context.IsRoot: True
+25.11.15 09:42:53.192	xj2fd2t3olitlehwirx545lm		Context.SelectedObjects.Count: 0
+25.11.15 09:42:53.195	xj2fd2t3olitlehwirx545lm		Context.CurrentObject: <not specified>
+25.11.15 09:42:53.198	xj2fd2t3olitlehwirx545lm		SelectedItem: Data Delivery Channel
+25.11.15 09:42:53.264	xj2fd2t3olitlehwirx545lm	Action 'New' done
+25.11.15 09:42:53.315	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:42:53.320	xj2fd2t3olitlehwirx545lm	===================
+25.11.15 09:43:06.751	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:43:06.754	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:43:06.757	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:43:06.760	xj2fd2t3olitlehwirx545lm		ID: Cancel
+25.11.15 09:43:06.764	xj2fd2t3olitlehwirx545lm		Category: UndoRedo
+25.11.15 09:43:06.767	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:43:06.770	xj2fd2t3olitlehwirx545lm		Context.Name: Data Delivery Channel
+25.11.15 09:43:06.772	xj2fd2t3olitlehwirx545lm		Context.IsRoot: True
+25.11.15 09:43:06.775	xj2fd2t3olitlehwirx545lm		Context.SelectedObjects.Count: 1
+25.11.15 09:43:06.778	xj2fd2t3olitlehwirx545lm		Context.CurrentObject: DataExplorer.Module.BusinessObjects.DataDeliveryChannel(90201291-46f6-4348-89b6-bab029b78334)
+25.11.15 09:43:06.814	xj2fd2t3olitlehwirx545lm	Action 'Cancel' done
+25.11.15 09:43:06.849	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:43:06.853	xj2fd2t3olitlehwirx545lm	===================
+25.11.15 09:43:08.940	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:43:08.944	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:43:08.948	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:43:08.952	xj2fd2t3olitlehwirx545lm		ID: ShowNavigationItem
+25.11.15 09:43:08.955	xj2fd2t3olitlehwirx545lm		Category: ViewsNavigation
+25.11.15 09:43:08.959	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+25.11.15 09:43:08.962	xj2fd2t3olitlehwirx545lm		Context.Name: Data Delivery Channel
+25.11.15 09:43:08.964	xj2fd2t3olitlehwirx545lm		Context.IsRoot: True
+25.11.15 09:43:08.968	xj2fd2t3olitlehwirx545lm		Context.SelectedObjects.Count: 0
+25.11.15 09:43:08.971	xj2fd2t3olitlehwirx545lm		Context.CurrentObject: <not specified>
+25.11.15 09:43:08.975	xj2fd2t3olitlehwirx545lm		SelectedItem: Data Format
+25.11.15 09:43:09.007	xj2fd2t3olitlehwirx545lm	Action 'ShowNavigationItem' done
+25.11.15 09:43:09.037	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:43:09.042	xj2fd2t3olitlehwirx545lm	===================
+25.11.15 09:43:10.630	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:43:10.634	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:43:10.638	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+25.11.15 09:43:10.641	xj2fd2t3olitlehwirx545lm		ID: New
+25.11.15 09:43:10.645	xj2fd2t3olitlehwirx545lm		Category: ObjectsCreation
+25.11.15 09:43:10.648	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebNewObjectViewController
+25.11.15 09:43:10.651	xj2fd2t3olitlehwirx545lm		Context.Name: Data Format
+25.11.15 09:43:10.654	xj2fd2t3olitlehwirx545lm		Context.IsRoot: True
+25.11.15 09:43:10.657	xj2fd2t3olitlehwirx545lm		Context.SelectedObjects.Count: 0
+25.11.15 09:43:10.660	xj2fd2t3olitlehwirx545lm		Context.CurrentObject: <not specified>
+25.11.15 09:43:10.663	xj2fd2t3olitlehwirx545lm		SelectedItem: Data Format
+25.11.15 09:43:10.690	xj2fd2t3olitlehwirx545lm	Action 'New' done
+25.11.15 09:43:10.726	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:43:10.731	xj2fd2t3olitlehwirx545lm	===================
+25.11.15 09:43:14.997	xj2fd2t3olitlehwirx545lm	--------------------------------------------------------------------------------
+25.11.15 09:43:14.999	xj2fd2t3olitlehwirx545lm	Execute action
+25.11.15 09:43:15.003	xj2fd2t3olitlehwirx545lm		Type: DevExpress.ExpressApp.Actions.SimpleAction
+25.11.15 09:43:15.006	xj2fd2t3olitlehwirx545lm		ID: Cancel
+25.11.15 09:43:15.011	xj2fd2t3olitlehwirx545lm		Category: UndoRedo
+25.11.15 09:43:15.014	xj2fd2t3olitlehwirx545lm		Controller.Name: DevExpress.ExpressApp.Web.SystemModule.WebModificationsController
+25.11.15 09:43:15.018	xj2fd2t3olitlehwirx545lm		Context.Name: Data Format
+25.11.15 09:43:15.020	xj2fd2t3olitlehwirx545lm		Context.IsRoot: True
+25.11.15 09:43:15.024	xj2fd2t3olitlehwirx545lm		Context.SelectedObjects.Count: 1
+25.11.15 09:43:15.028	xj2fd2t3olitlehwirx545lm		Context.CurrentObject: DataExplorer.Module.BusinessObjects.DataFormat(b583ce2c-654e-499f-adbe-4c79e6960b94)
+25.11.15 09:43:15.060	xj2fd2t3olitlehwirx545lm	Action 'Cancel' done
+25.11.15 09:43:15.089	xj2fd2t3olitlehwirx545lm	Save model changes
+25.11.15 09:43:15.095	xj2fd2t3olitlehwirx545lm	===================

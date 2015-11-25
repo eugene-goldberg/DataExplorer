@@ -50,6 +50,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Entity> DataSourceEntities
         { get { return GetCollection<Entity>("DataSourceEntities"); } }
 
+        [Association("DataDeliveryChannelDataSource", typeof(DataDeliveryChannel))]
+        public XPCollection<DataDeliveryChannel> SourceChannel
+        { get { return GetCollection<DataDeliveryChannel>("SourceChannel"); } }
+
         private int id;
 
         public int Id

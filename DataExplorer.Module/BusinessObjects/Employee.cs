@@ -50,6 +50,14 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Entity> OwnedEntities
         { get { return GetCollection<Entity>("OwnedEntities"); } }
 
+        [Association("BusinessInitiativeEmployee", typeof(BusinessInitiative))]
+        public XPCollection<BusinessInitiative> OwnsBusinessInitiatives
+        { get { return GetCollection<BusinessInitiative>("OwnsBusinessInitiatives"); } }
+
+        [Association("GambiToolEmployee", typeof(GambiTool))]
+        public XPCollection<GambiTool> OwnsGambiTools
+        { get { return GetCollection<GambiTool>("OwnsGambiTools"); } }
+
         [Association("GovernanceEmployee", typeof(Governance))]
         public XPCollection<Governance> GovernsOver
         { get { return GetCollection<Governance>("GovernsOver"); } }

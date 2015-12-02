@@ -47,8 +47,8 @@ namespace DataExplorer.Module.BusinessObjects
         //}
 
         [Association("EntityDataSource", typeof(Entity))]
-        public XPCollection<Entity> DataSourceEntities
-        { get { return GetCollection<Entity>("DataSourceEntities"); } }
+        public XPCollection<Entity> EntitiesRelyingOnThisDataSource
+        { get { return GetCollection<Entity>("EntitiesRelyingOnThisDataSource"); } }
 
         [Association("DataDeliveryChannelDataSource", typeof(DataDeliveryChannel))]
         public XPCollection<DataDeliveryChannel> SourceChannel

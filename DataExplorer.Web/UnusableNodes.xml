@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Attribute_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Description" Index="1" />
+        <ColumnInfo Id="DataType" Index="2" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

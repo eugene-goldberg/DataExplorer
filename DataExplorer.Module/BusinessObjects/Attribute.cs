@@ -64,19 +64,37 @@ namespace DataExplorer.Module.BusinessObjects
             }
         }
 
-        private string description;
+        private string remarks;
         [Size(SizeAttribute.Unlimited)]
-        public string Description
+        public string Remarks
         {
-            get { return description; }
+            get { return remarks; }
             set
             {
-                string oldValue = Description;
+                string oldValue = Remarks;
                 if (oldValue == value) return;
-                description = value;
-                OnChanged("Description", oldValue, value);
+                remarks = value;
+                OnChanged("Remarks", oldValue, value);
             }
         }
+
+        private string source;
+        [Size(SizeAttribute.Unlimited)]
+        public string Source
+        {
+            get { return source; }
+            set
+            {
+                string oldValue = Source;
+                if (oldValue == value) return;
+                source = value;
+                OnChanged("Source", oldValue, value);
+            }
+        }
+        
+     
+
+        
         
         
     }

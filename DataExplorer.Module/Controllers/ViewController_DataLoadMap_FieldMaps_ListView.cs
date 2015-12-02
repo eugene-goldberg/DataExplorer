@@ -92,7 +92,7 @@ namespace DataExplorer.Module.Controllers
             int numberOfRows = range.Rows.Length;
 
             for (int i = 1; i < numberOfRows; i++) //for each excel tab
-            {
+            {             
                 FieldMap fieldMap = ObjectSpace.CreateObject<FieldMap>();
 
                 if (sheet.Rows[i].Cells[0].Value != "")
@@ -210,6 +210,9 @@ namespace DataExplorer.Module.Controllers
             for (int i = 1; i < numberOfRows; i++) //For each row of the input document
             {
                 Debug.Write("\n\n loadObjects()  -  Now Loading Tab Name\t\t" + sheet.Name + "\t\t Row #\t\t" + i);
+
+                Debug.WriteLine("Now loading line " + i);
+
                 object targetObject = ObjectSpace.CreateObject(myType);
 
                 targetBoType = XafTypesInfo.Instance.FindTypeInfo(myType);
@@ -247,11 +250,11 @@ namespace DataExplorer.Module.Controllers
                                     {
                                         object cellvalue = sheet.Rows[i].Cells[curentFieldMap.ExcelColumnPosition].Value;
                                         object value = null;
-                                        try
-                                        {
+                                        //try
+                                        //{
                                             value = Convert.ToDouble(cellvalue);
-                                        }
-                                        catch (Exception ex) { }
+                                        //}
+                                        //catch (Exception ex) { }
                                         if (value != null)
                                         {
                                             member.SetValue(targetObject, Convert.ToDouble((sheet.Rows[i].Cells[curentFieldMap.ExcelColumnPosition].Value).Trim()));

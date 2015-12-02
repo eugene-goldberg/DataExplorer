@@ -54,6 +54,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<BusinessGoal> BusinessInitiativeGoals
         { get { return GetCollection<BusinessGoal>("BusinessInitiativeGoals"); } }
 
+        [Association("BusinessInitiativeEmployee", typeof(Employee))]
+        public XPCollection<Employee> BusinessInitiativeOwner
+        { get { return GetCollection<Employee>("BusinessInitiativeOwner"); } }
+
         [Association("BusinessInitiativePerformanceMetrics", typeof(PerformanceMetric))]
         public XPCollection<PerformanceMetric> BusinessInitiativePerformanceMetrics
         { get { return GetCollection<PerformanceMetric>("BusinessInitiativePerformanceMetrics"); } }
@@ -61,6 +65,10 @@ namespace DataExplorer.Module.BusinessObjects
         [Association("GovernanceBusinessInitiative", typeof(Governance))]
         public XPCollection<Governance> BusinessInitiativeGovernance
         { get { return GetCollection<Governance>("BusinessInitiativeGovernance"); } }
+
+        [Association("GambiToolBusinessInitiative", typeof(GambiTool))]
+        public XPCollection<GambiTool> SupportedByGambiTools
+        { get { return GetCollection<GambiTool>("SupportedByGambiTools"); } }
 
         private string initiativeName;
         [Size(SizeAttribute.Unlimited)]
@@ -90,20 +98,6 @@ namespace DataExplorer.Module.BusinessObjects
             }
         }
         
-
-        private string owner;
-        [Size(SizeAttribute.Unlimited)]
-        public string Owner
-        {
-            get { return owner; }
-            set
-            {
-                string oldValue = Owner;
-                if (oldValue == value) return;
-                owner = value;
-                OnChanged("Owner", oldValue, value);
-            }
-        }
 
         private DateTime startDate;
 

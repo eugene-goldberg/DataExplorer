@@ -33,6 +33,9 @@ namespace DataExplorer.Web {
         private DevExpress.ExpressApp.TreeListEditors.TreeListEditorsModuleBase treeListEditorsModuleBase;
         private DevExpress.ExpressApp.TreeListEditors.Web.TreeListEditorsAspNetModule treeListEditorsAspNetModule;
         private DevExpress.ExpressApp.Validation.ValidationModule validationModule;
+        private DevExpress.ExpressApp.Security.SecurityModule securityModule1;
+        private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
+        private DevExpress.ExpressApp.Security.AuthenticationStandard authenticationStandard1;
         private DevExpress.ExpressApp.ViewVariantsModule.ViewVariantsModule viewVariantsModule;
 
         public DataExplorerAspNetApplication() {
@@ -71,8 +74,6 @@ namespace DataExplorer.Web {
         private void InitializeComponent() {
             this.module1 = new DevExpress.ExpressApp.SystemModule.SystemModule();
             this.module2 = new DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule();
-            this.module3 = new DataExplorer.Module.DataExplorerModule();
-            this.module4 = new DataExplorer.Module.Web.DataExplorerAspNetModule();
             this.objectsModule = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
             this.chartModule = new DevExpress.ExpressApp.Chart.ChartModule();
             this.chartAspNetModule = new DevExpress.ExpressApp.Chart.Web.ChartAspNetModule();
@@ -95,43 +96,74 @@ namespace DataExplorer.Web {
             this.treeListEditorsAspNetModule = new DevExpress.ExpressApp.TreeListEditors.Web.TreeListEditorsAspNetModule();
             this.validationModule = new DevExpress.ExpressApp.Validation.ValidationModule();
             this.viewVariantsModule = new DevExpress.ExpressApp.ViewVariantsModule.ViewVariantsModule();
+            this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
+            this.securityStrategyComplex1 = new DevExpress.ExpressApp.Security.SecurityStrategyComplex();
+            this.module3 = new DataExplorer.Module.DataExplorerModule();
+            this.module4 = new DataExplorer.Module.Web.DataExplorerAspNetModule();
+            this.authenticationStandard1 = new DevExpress.ExpressApp.Security.AuthenticationStandard();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
-            //
+            // 
+            // notificationsModule
+            // 
+            this.notificationsModule.NotificationsRefreshInterval = System.TimeSpan.Parse("00:05:00");
+            this.notificationsModule.NotificationsStartDelay = System.TimeSpan.Parse("00:00:05");
+            this.notificationsModule.ShowNotificationsWindow = true;
+            // 
+            // pivotChartModuleBase
+            // 
+            this.pivotChartModuleBase.ShowAdditionalNavigation = false;
+            // 
             // reportsModuleV2
-            //
+            // 
             this.reportsModuleV2.EnableInplaceReports = true;
             this.reportsModuleV2.ReportDataType = typeof(DevExpress.Persistent.BaseImpl.ReportDataV2);
-            this.reportsModuleV2.ShowAdditionalNavigation = false;
+            // 
+            // validationModule
+            // 
+            this.validationModule.AllowValidationDetailsAccess = true;
+            this.validationModule.IgnoreWarningAndInformationRules = false;
+            // 
+            // securityStrategyComplex1
+            // 
+            this.securityStrategyComplex1.Authentication = this.authenticationStandard1;
+            this.securityStrategyComplex1.RoleType = typeof(DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole);
+            this.securityStrategyComplex1.UserType = typeof(DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser);
+            // 
+            // authenticationStandard1
+            // 
+            this.authenticationStandard1.LogonParametersType = typeof(DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters);
             // 
             // DataExplorerAspNetApplication
             // 
             this.ApplicationName = "DataExplorer";
             this.Modules.Add(this.module1);
             this.Modules.Add(this.module2);
-            this.Modules.Add(this.module3);
-            this.Modules.Add(this.module4);
             this.Modules.Add(this.objectsModule);
             this.Modules.Add(this.chartModule);
-            this.Modules.Add(this.chartAspNetModule);
             this.Modules.Add(this.cloneObjectModule);
             this.Modules.Add(this.conditionalAppearanceModule);
-            this.Modules.Add(this.fileAttachmentsAspNetModule);
-            this.Modules.Add(this.htmlPropertyEditorAspNetModule);
+            this.Modules.Add(this.validationModule);
             this.Modules.Add(this.kpiModule);
             this.Modules.Add(this.notificationsModule);
-            this.Modules.Add(this.notificationsAspNetModule);
             this.Modules.Add(this.pivotChartModuleBase);
-            this.Modules.Add(this.pivotChartAspNetModule);
             this.Modules.Add(this.pivotGridModule);
-            this.Modules.Add(this.pivotGridAspNetModule);
             this.Modules.Add(this.reportsModuleV2);
-            this.Modules.Add(this.reportsAspNetModuleV2);
             this.Modules.Add(this.schedulerModuleBase);
-            this.Modules.Add(this.schedulerAspNetModule);
             this.Modules.Add(this.treeListEditorsModuleBase);
-            this.Modules.Add(this.treeListEditorsAspNetModule);
-            this.Modules.Add(this.validationModule);
             this.Modules.Add(this.viewVariantsModule);
+            this.Modules.Add(this.module3);
+            this.Modules.Add(this.chartAspNetModule);
+            this.Modules.Add(this.fileAttachmentsAspNetModule);
+            this.Modules.Add(this.htmlPropertyEditorAspNetModule);
+            this.Modules.Add(this.notificationsAspNetModule);
+            this.Modules.Add(this.pivotChartAspNetModule);
+            this.Modules.Add(this.pivotGridAspNetModule);
+            this.Modules.Add(this.reportsAspNetModuleV2);
+            this.Modules.Add(this.schedulerAspNetModule);
+            this.Modules.Add(this.treeListEditorsAspNetModule);
+            this.Modules.Add(this.securityModule1);
+            this.Modules.Add(this.module4);
+            this.Security = this.securityStrategyComplex1;
             this.DatabaseVersionMismatch += new System.EventHandler<DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs>(this.DataExplorerAspNetApplication_DatabaseVersionMismatch);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 

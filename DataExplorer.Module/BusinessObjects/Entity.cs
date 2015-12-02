@@ -46,9 +46,17 @@ namespace DataExplorer.Module.BusinessObjects
         //    this.PersistentProperty = "Paid";
         //}
 
+        [Association("EntityDataDictionaryItem", typeof(DataDictionaryItem))]
+        public XPCollection<DataDictionaryItem> DataDictionary
+        { get { return GetCollection<DataDictionaryItem>("DataDictionary"); } }
+
         [Association("EntitySynonim", typeof(Synonim))]
         public XPCollection<Synonim> EntitySynonims
         { get { return GetCollection<Synonim>("EntitySynonims"); } }
+
+        [Association("EntityGambiTool", typeof(GambiTool))]
+        public XPCollection<GambiTool> UsedInGambiTools
+        { get { return GetCollection<GambiTool>("UsedInGambiTools"); } }
 
         [Association("EntityAttribute", typeof(Attribute))]
         public XPCollection<Attribute> EntityAttributes
@@ -96,6 +104,8 @@ namespace DataExplorer.Module.BusinessObjects
         [Association("InformationComponentEntity", typeof(InformationComponent))]
         public XPCollection<InformationComponent> EntityInformationComponents
         { get { return GetCollection<InformationComponent>("EntityInformationComponents"); } }
+
+       
 
 
 

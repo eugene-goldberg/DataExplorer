@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="logo.png">
+  <NavigationItems>
+    <Items>
+      <Item Id="@535a41d5-32e7-4080-90df-d8e7ff8d8a3a" Caption="Data Management" Index="0" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="DataDeliveryActivity_ListView" ViewId="DataDeliveryActivity_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="DataLoadMap_ListView" Index="1" Caption="Data Load" ObjectKey="" ViewId="DataLoadMap_ListView" IsNewNode="True" />
+          <Item Id="FieldMap_ListView" Index="2" ViewId="FieldMap_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ObjectFields_ListView" Index="3" ViewId="ObjectFields_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Caption="Common Items" Index="1">
+        <Items>
+          <Item Id="Account_ListView" Index="-1" Removed="True" />
+          <Item Id="DataLoadMap_ListView" Index="0" Caption="Data Load" Removed="True" />
+          <Item Id="FieldMap_ListView" Index="2" Removed="True" />
+          <Item Id="ObjectFields_ListView" Index="3" Removed="True" />
+          <Item Id="@ed13f922-031f-445e-a067-8f214e51c8a1" ViewId="Account_ListView" IsNewNode="True" />
+          <Item Id="Attribute_ListView" Caption="Attributes" />
+          <Item Id="BusinessGoal_ListView" Caption="Business Goals" />
+          <Item Id="BusinessInitiative_ListView" Caption="Business Initiatives" />
+          <Item Id="DataDeliveryChannel_ListView" Caption="Data Delivery Channels" />
+          <Item Id="DataDeliveryMethod_ListView" Caption="Data Delivery Methods" />
+          <Item Id="DataDiscoveryMethod_ListView" Caption="Data Discovery Methods" />
+          <Item Id="DataFormat_ListView" Caption="Data Formats" />
+          <Item Id="DataSource_ListView" Caption="Data Sources" />
+          <Item Id="Employee_ListView" Caption="Employees" />
+          <Item Id="Entity_ListView" Caption="Entities" />
+          <Item Id="Event_ListView" Removed="True" />
+          <Item Id="GambiTool_ListView" Caption="Gambi Tools" />
+          <Item Id="InformationComponent_ListView" Caption="Information Components" />
+          <Item Id="PerformanceMetric_ListView" Caption="Performance Metrics" />
+          <Item Id="PerformanceMetricTrackingMethod_ListView" Caption="Performance Metric Tracking Methods" />
+          <Item Id="SalesforcePipeline_ListView" Removed="True" />
+          <Item Id="SubjectArea_ListView" Caption="Subject Areas" />
+          <Item Id="Synonim_ListView" Caption="Synonims" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Index="3" />
+      <Item Id="KPI" Index="4" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerAspNetModule" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SystemAspNetModule" Version="15.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="15.1.8.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Account_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <ListView Id="BusinessGoal_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <ListView Id="BusinessInitiative_BusinessInitiativeOwner_ListView">
+      <Columns>
+        <ColumnInfo Id="MiddleInitial" Index="1" />
+        <ColumnInfo Id="LastName" Index="2" />
+        <ColumnInfo Id="FunctionalRole" Index="3" />
+        <ColumnInfo Id="Email" Index="4" />
+        <ColumnInfo Id="PhoneNumber" Index="5" />
+      </Columns>
+    </ListView>
+    <ListView Id="BusinessInitiative_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="DataDeliveryActivity_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="DateRecorded" Index="0" />
+        <ColumnInfo Id="DataDescription" Index="1" />
+        <ColumnInfo Id="DataSource" Index="3" />
+        <ColumnInfo Id="TargetName" Index="4" />
+        <ColumnInfo Id="SourceDataFormat" Index="5" />
+        <ColumnInfo Id="TargetDataFormat" Index="6" />
+        <ColumnInfo Id="ActivityStartDate" Index="7" />
+        <ColumnInfo Id="ActivityEndDate" Index="8" />
+        <ColumnInfo Id="CurrentStatus" Index="9" />
+        <ColumnInfo Id="NumberOfRecordsLoaded" Index="10" />
+        <ColumnInfo Id="TotalNumberOfRecordsInTheTarget" Index="11" />
+        <ColumnInfo Id="PersonPerformingActivity" Index="12" />
+        <ColumnInfo Id="Comments" Index="13" />
+      </Columns>
+    </ListView>
+    <ListView Id="DataDeliveryChannel_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <ListView Id="DataDeliveryMethod_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <ListView Id="DataDictionaryItem_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <ListView Id="DataDiscoveryMethod_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <ListView Id="DataFormat_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True" />
+    <DetailView Id="DataLoadMap_DetailView" Caption="Data Load" />
+    <ListView Id="DataLoadMap_ListView" Caption="Data Load" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="DataSource_DataSourceOwners_ListView">
+      <Columns>
+        <ColumnInfo Id="MiddleInitial" Index="1" />
+        <ColumnInfo Id="LastName" Index="2" />
+        <ColumnInfo Id="FunctionalRole" Index="3" />
+        <ColumnInfo Id="Email" Index="4" />
+        <ColumnInfo Id="PhoneNumber" Index="5" />
+      </Columns>
+    </ListView>
+    <ListView Id="DataSource_ListView" ShowAutoFilterRow="True" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="Category" Index="0" />
+        <ColumnInfo Id="DataSourceInstance" Index="1" />
+        <ColumnInfo Id="SystemTeam" Index="2" />
+        <ColumnInfo Id="SystemOwner" Index="3" />
+        <ColumnInfo Id="SourceSystemName" Index="4" />
+        <ColumnInfo Id="SourceSystemLocation" Index="5" />
+        <ColumnInfo Id="SourceSystemNetworkSegment" Index="6" />
+        <ColumnInfo Id="SourceSystemOsType" Index="7" />
+        <ColumnInfo Id="SourceDatabaseName" Index="8" />
+        <ColumnInfo Id="SourceDatabaseType" Index="9" />
+        <ColumnInfo Id="SourceDatabaseVersion" Index="10" />
+      </Columns>
+    </ListView>
+    <ListView Id="DataSource_LookupListView">
+      <Columns>
+        <ColumnInfo Id="DataSourceInstance" PropertyName="DataSourceInstance" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="SourceSystemName" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="DataSource_SupportedGambiTools_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True">
+      <Columns>
+        <ColumnInfo Id="MiddleInitial" Index="1" />
+        <ColumnInfo Id="LastName" Index="2" />
+        <ColumnInfo Id="Email" Index="3" />
+        <ColumnInfo Id="PhoneNumber" Index="4" />
+        <ColumnInfo Id="FunctionalRole" Index="5" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_LookupListView">
+      <Columns>
+        <ColumnInfo Id="@1a9d3f0a-0631-43f7-b1f1-47a94ceb7503" PropertyName="LastName" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_OwnsDatasources_ListView">
+      <Columns>
+        <ColumnInfo Id="Category" Index="0" />
+        <ColumnInfo Id="DataSourceInstance" Index="1" />
+        <ColumnInfo Id="SourceSystemName" Index="2" />
+        <ColumnInfo Id="SystemTeam" Index="3" />
+        <ColumnInfo Id="SourceSystemLocation" Index="5" />
+        <ColumnInfo Id="SourceSystemNetworkSegment" Index="6" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_DataDictionary_ListView">
+      <Columns>
+        <ColumnInfo Id="BusinessMeaning" Index="1" />
+        <ColumnInfo Id="DataType" Index="2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Entity_DetailView">
+      <Items>
+        <PropertyEditor Id="PrimaryEntity" Index="-1" />
+      </Items>
+    </DetailView>
+    <ListView Id="Entity_EntityDataSources_ListView">
+      <Columns>
+        <ColumnInfo Id="SourceSystemName" Index="-1" />
+        <ColumnInfo Id="DataSourceInstance" Index="0" />
+        <ColumnInfo Id="Category" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_EntitySynonims_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Entity_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True">
+      <Columns>
+        <ColumnInfo Id="CorrespondingLdeName" Index="-1" />
+        <ColumnInfo Id="PrimaryEntity" Index="-1" />
+        <ColumnInfo Id="RelationshipType" Index="-1" />
+        <ColumnInfo Id="EntityDefinition" Index="1" />
+        <ColumnInfo Id="SubjectArea" Index="2" />
+        <ColumnInfo Id="Usage" Index="3" />
+        <ColumnInfo Id="Coverage" Index="5" />
+        <ColumnInfo Id="Comments" Index="6" />
+      </Columns>
+    </ListView>
+    <ListView Id="FieldMap_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="GambiTool_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="GambiTool_SupportingDataSources_ListView">
+      <Columns>
+        <ColumnInfo Id="DataSourceInstance" Index="0" />
+        <ColumnInfo Id="Category" Index="1" />
+        <ColumnInfo Id="SourceSystemName" Index="2" />
+      </Columns>
+    </ListView>
+    <ListView Id="GambiTool_ToolOwners_ListView">
+      <Columns>
+        <ColumnInfo Id="LastName" Index="1" />
+        <ColumnInfo Id="FunctionalRole" Index="2" />
+      </Columns>
+    </ListView>
+    <ListView Id="Governance_GoverningEmployees_ListView">
+      <Columns>
+        <ColumnInfo Id="MiddleInitial" Index="1" />
+        <ColumnInfo Id="LastName" Index="2" />
+        <ColumnInfo Id="FunctionalRole" Index="3" />
+        <ColumnInfo Id="Email" Index="4" />
+        <ColumnInfo Id="PhoneNumber" Index="5" />
+      </Columns>
+    </ListView>
+    <ListView Id="Governance_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="InformationComponent_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="MetricCalculation_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="MetricCalculation_MetricSupportedByThisCalculation_ListView">
+      <Columns>
+        <ColumnInfo Id="MetricCategory" Index="0" />
+        <ColumnInfo Id="MetricName" Index="1" />
+        <ColumnInfo Id="MetricDefinition" Index="2" />
+        <ColumnInfo Id="MetricPurpose" Index="3" />
+      </Columns>
+    </ListView>
+    <ListView Id="MetricMockup_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="ObjectFields_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True" />
+    <ListView Id="PerformanceMetric_ListView" IsGroupPanelVisible="True" ShowAutoFilterRow="True">
+      <Columns>
+        <ColumnInfo Id="ActionableDecisions" Index="-1" />
+        <ColumnInfo Id="AdditionalAnalytics" Index="-1" />
+        <ColumnInfo Id="Conditions" Index="-1" />
+        <ColumnInfo Id="MetricCategory" Index="0" />
+        <ColumnInfo Id="MetricName" Index="1" />
+        <ColumnInfo Id="MetricDefinition" Index="2" />
+        <ColumnInfo Id="MetricPurpose" Index="3" />
+      </Columns>
+    </ListView>
+    <ListView Id="PerformanceMetric_PerformanceMetricCalculations_ListView">
+      <Columns>
+        <ColumnInfo Id="Definition" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="SalesforcePipeline_ListView" IsFooterVisible="True" IsGroupPanelVisible="True" ShowAutoFilterRow="True">
+      <Columns>
+        <ColumnInfo Id="AccountName" Index="0" />
+        <ColumnInfo Id="OpportunityId" Index="1" />
+        <ColumnInfo Id="OpportunityName" Index="2" />
+        <ColumnInfo Id="OpportunityStartDate" Index="3" />
+        <ColumnInfo Id="TotalAcv" Index="3" />
+        <ColumnInfo Id="RevenueStartDate" Index="4" />
+        <ColumnInfo Id="Stage" Index="5" />
+        <ColumnInfo Id="GisTcv" Index="6" />
+        <ColumnInfo Id="GbsTcv" Index="7" />
+        <ColumnInfo Id="DataCenterTcv" Index="8" />
+        <ColumnInfo Id="GisAcv" Index="8" />
+        <ColumnInfo Id="BigDataTcv" Index="9" />
+        <ColumnInfo Id="CyberTcv" Index="10" />
+        <ColumnInfo Id="CloudTcv" Index="11" />
+        <ColumnInfo Id="PlatformTcv" Index="12" />
+        <ColumnInfo Id="ServiceManagementTcv" Index="13" />
+        <ColumnInfo Id="WorkplaceTcv" Index="14" />
+        <ColumnInfo Id="TotalContractValueConverted" Index="15" />
+        <ColumnInfo Id="ProbabilityPercentage" Index="16" />
+        <ColumnInfo Id="RevenueTerm" Index="17" />
+        <ColumnInfo Id="Industry" Index="18" />
+        <ColumnInfo Id="DateQualified" Index="19" />
+        <ColumnInfo Id="NextStepsAndStatus" Index="19" />
+        <ColumnInfo Id="CscRegion" Index="20" />
+        <ColumnInfo Id="DecisionDate" Index="21" />
+        <ColumnInfo Id="CloseDate" Index="22" />
+        <ColumnInfo Id="Scope" Index="23" />
+        <ColumnInfo Id="NumberOfOfferings" Index="26" />
+        <ColumnInfo Id="ProposalSubmissionDate" Index="26" />
+      </Columns>
+    </ListView>
+    <ListView Id="SubjectArea_ListView" MasterDetailMode="ListViewOnly" IsGroupPanelVisible="True" ShowAutoFilterRow="True">
+      <Columns>
+        <ColumnInfo Id="Purpose" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Synonim_ListView">
+      <Columns>
+        <ColumnInfo Id="Description" Index="1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Account_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="ContractExpiryDate" Index="-1" />
+        <ColumnInfo Id="ContractStartDate" Index="-1" />
+        <ColumnInfo Id="CurrentContractYear" Index="-1" />
+        <ColumnInfo Id="IdoGoLiveDate" Index="-1" />
+        <ColumnInfo Id="IdoStabilisationDate" Index="-1" />
+        <ColumnInfo Id="AhgAccountName" Index="1" />
+        <ColumnInfo Id="BeaconAccountName" Index="2" />
+        <ColumnInfo Id="ContractLexbaseAccountName" Index="3" />
+        <ColumnInfo Id="CustomerH1" Index="4" />
+        <ColumnInfo Id="CustomerH2" Index="5" />
+        <ColumnInfo Id="FocusAccountName" Index="6" />
+        <ColumnInfo Id="EmsrtAccountName" Index="7" />
+        <ColumnInfo Id="GcrlAccountName" Index="8" />
+        <ColumnInfo Id="SapAccountName" Index="9" />
+        <ColumnInfo Id="SapClientGroup" Index="10" />
+        <ColumnInfo Id="SfdcAccountName" Index="11" />
+        <ColumnInfo Id="SnowAccountName" Index="12" />
+        <ColumnInfo Id="T3Name" Index="13" />
+        <ColumnInfo Id="VocAccountName" Index="14" />
+        <ColumnInfo Id="Customer" Index="15" />
+        <ColumnInfo Id="DataInCscBi" Index="16" />
+        <ColumnInfo Id="CscBiPhase" Index="17" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

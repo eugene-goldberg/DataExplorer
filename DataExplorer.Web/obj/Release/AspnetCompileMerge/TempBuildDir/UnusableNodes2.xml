@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Entity_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="InformationContext" Index="-1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="DataSource_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Id" Index="0" />
+        <ColumnInfo Id="IntendedUse" Index="3" />
+        <ColumnInfo Id="Source" Index="4" />
+        <ColumnInfo Id="AccountableDataOwner" Index="5" />
+        <ColumnInfo Id="DataOwner" Index="6" />
+        <ColumnInfo Id="AccessPoint" Index="7" />
+        <ColumnInfo Id="ToolTechnicalSupport" Index="8" />
+        <ColumnInfo Id="AlternativeSource" Index="9" />
+        <ColumnInfo Id="Issue" Index="10" />
+        <ColumnInfo Id="Action" Index="11" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

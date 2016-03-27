@@ -54,6 +54,10 @@ namespace DataExplorer.Module.BusinessObjects
             set { SetPropertyValue("Location", ref entity, value); }
         }
 
+        [Association("DataTableDataDictionaryItem", typeof(DataTable))]
+        public XPCollection<DataTable> AssociatedDataTables
+        { get { return GetCollection<DataTable>("AssociatedDataTables"); } }
+
         private string attributeName;
         [Size(SizeAttribute.Unlimited)]
         public string AttributeName

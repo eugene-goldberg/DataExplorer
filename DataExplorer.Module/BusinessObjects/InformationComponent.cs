@@ -51,9 +51,9 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<SubjectArea> InformationComponentsSubjectArea
         { get { return GetCollection<SubjectArea>("InformationComponentsSubjectArea"); } }
 
-        [Association("InformationComponentEntity", typeof(Entity))]
-        public XPCollection<Entity> InformationComponentsEntities
-        { get { return GetCollection<Entity>("InformationComponentsEntities"); } }
+        [Association("EntityInformationComponent", typeof(Entity))]
+        public XPCollection<Entity> RelatedEntities
+        { get { return GetCollection<Entity>("RelatedEntities"); } }
 
         private string name;
         [Size(SizeAttribute.Unlimited)]

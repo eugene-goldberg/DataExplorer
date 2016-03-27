@@ -46,6 +46,10 @@ namespace DataExplorer.Module.BusinessObjects
         //    this.PersistentProperty = "Paid";
         //}
 
+        [Association("DataSourceEmployee", typeof(DataSource))]
+        public XPCollection<DataSource> OwnsDatasources
+        { get { return GetCollection<DataSource>("OwnsDatasources"); } }
+
         [Association("EntityOwner", typeof(Entity))]
         public XPCollection<Entity> OwnedEntities
         { get { return GetCollection<Entity>("OwnedEntities"); } }
@@ -61,6 +65,10 @@ namespace DataExplorer.Module.BusinessObjects
         [Association("GovernanceEmployee", typeof(Governance))]
         public XPCollection<Governance> GovernsOver
         { get { return GetCollection<Governance>("GovernsOver"); } }
+
+        [Association("BusinessFunctionEmployee", typeof(BusinessFunction))]
+        public XPCollection<BusinessFunction> AssociatedBusinessFcuntions
+        { get { return GetCollection<BusinessFunction>("AssociatedBusinessFcuntions"); } }
 
         private string firstName;
         [Size(SizeAttribute.Unlimited)]

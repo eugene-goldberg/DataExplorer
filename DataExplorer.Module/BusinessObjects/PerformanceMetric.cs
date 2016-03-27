@@ -62,6 +62,37 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<PerformanceMetricTrackingMethod> PerformanceMetricsTrackingMethods
         { get { return GetCollection<PerformanceMetricTrackingMethod>("PerformanceMetricsTrackingMethods"); } }
 
+        [Association("PerformanceMetricCalculations", typeof(MetricCalculation))]
+        public XPCollection<MetricCalculation> PerformanceMetricCalculations
+        { get { return GetCollection<MetricCalculation>("PerformanceMetricCalculations"); } }
+
+        [Association("PerformanceMetricMockup", typeof(MetricMockup))]
+        public XPCollection<MetricMockup> MetricMockups
+        { get { return GetCollection<MetricMockup>("MetricMockups"); } }
+
+        [Association("BusinessQuestionPerformanceMetric", typeof(BusinessQuestion))]
+        public XPCollection<BusinessQuestion> RelatedBusinessQuestions
+        { get { return GetCollection<BusinessQuestion>("RelatedBusinessQuestions"); } }
+
+        [Association("PerformanceMetricAnalyticalMethod", typeof(AnalyticalMethod))]
+        public XPCollection<AnalyticalMethod> RelatedAnalythicalMethods
+        { get { return GetCollection<AnalyticalMethod>("RelatedAnalythicalMethods"); } }
+
+        private string metricCategory;
+        [Size(SizeAttribute.Unlimited)]
+        public string MetricCategory
+        {
+            get { return metricCategory; }
+            set
+            {
+                string oldValue = MetricCategory;
+                if (oldValue == value) return;
+                metricCategory = value;
+                OnChanged("MetricCategory", oldValue, value);
+            }
+        }
+        
+
         private string metricName;
         [Size(SizeAttribute.Unlimited)]
         public string MetricName

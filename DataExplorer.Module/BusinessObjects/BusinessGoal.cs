@@ -58,6 +58,14 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<DataDeliveryChannel> BusinessGoalDataDeliveryChannels
         { get { return GetCollection<DataDeliveryChannel>("BusinessGoalDataDeliveryChannels"); } }
 
+        [Association("BusinessQuestionBusinessGoal", typeof(BusinessQuestion))]
+        public XPCollection<BusinessQuestion> RelatedBusinessQuestions
+        { get { return GetCollection<BusinessQuestion>("RelatedBusinessQuestions"); } }
+
+        [Association("BusinessFunctionBusinessGoal", typeof(BusinessFunction))]
+        public XPCollection<BusinessFunction> AssociatedBusinessFunctions
+        { get { return GetCollection<BusinessFunction>("AssociatedBusinessFunctions"); } }
+
         private string goalName;
         [Size(SizeAttribute.Unlimited)]
         public string GoalName

@@ -31,20 +31,7 @@ namespace DataExplorer.Module.BusinessObjects
             base.AfterConstruction();
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
-        //private string _PersistentProperty;
-        //[XafDisplayName("My display name"), ToolTip("My hint message")]
-        //[ModelDefault("EditMask", "(000)-00"), Index(0), VisibleInListView(false)]
-        //[Persistent("DatabaseColumnName"), RuleRequiredField(DefaultContexts.Save)]
-        //public string PersistentProperty {
-        //    get { return _PersistentProperty; }
-        //    set { SetPropertyValue("PersistentProperty", ref _PersistentProperty, value); }
-        //}
-
-        //[Action(Caption = "My UI Action", ConfirmationMessage = "Are you sure?", ImageName = "Attention", AutoCommit = true)]
-        //public void ActionMethod() {
-        //    // Trigger a custom business logic for the current record in the UI (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112619.aspx).
-        //    this.PersistentProperty = "Paid";
-        //}
+      
 
         [Association("EntitySubjectArea", typeof(Entity))]
         public XPCollection<Entity> SubjectAreaEntities
@@ -62,6 +49,14 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Governance> GovernedBy
         { get { return GetCollection<Governance>("GovernedBy"); } }
 
+        [Association("SubjectAreaBusinessQuestion", typeof(BusinessQuestion))]
+        public XPCollection<BusinessQuestion> RelatedBusinessQuestions
+        { get { return GetCollection<BusinessQuestion>("RelatedBusinessQuestions"); } }
+
+        [Association("BusinessFunctionSubjectArea", typeof(BusinessFunction))]
+        public XPCollection<BusinessFunction> AssociatedBusinessFunctions
+        { get { return GetCollection<BusinessFunction>("AssociatedBusinessFunctions"); } }
+
         private string name;
         [Size(SizeAttribute.Unlimited)]
         public string Name
@@ -76,17 +71,17 @@ namespace DataExplorer.Module.BusinessObjects
             }
         }
 
-        private string purpose;
+        private string description;
         [Size(SizeAttribute.Unlimited)]
-        public string Purpose
+        public string Description
         {
-            get { return purpose; }
+            get { return description; }
             set
             {
-                string oldValue = Purpose;
+                string oldValue = Description;
                 if (oldValue == value) return;
-                purpose = value;
-                OnChanged("Purpose", oldValue, value);
+                description = value;
+                OnChanged("Description", oldValue, value);
             }
         }
         

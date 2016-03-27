@@ -50,37 +50,32 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Entity> EntitiesRelyingOnThisDataSource
         { get { return GetCollection<Entity>("EntitiesRelyingOnThisDataSource"); } }
 
+        [Association("DataSourceGambiTool", typeof(GambiTool))]
+        public XPCollection<GambiTool> SupportedGambiTools
+        { get { return GetCollection<GambiTool>("SupportedGambiTools"); } }
+
         [Association("DataDeliveryChannelDataSource", typeof(DataDeliveryChannel))]
-        public XPCollection<DataDeliveryChannel> SourceChannel
-        { get { return GetCollection<DataDeliveryChannel>("SourceChannel"); } }
+        public XPCollection<DataDeliveryChannel> DeliveredThroughChannels
+        { get { return GetCollection<DataDeliveryChannel>("DeliveredThroughChannels"); } }
 
-        private int id;
+        [Association("DataSourceEmployee", typeof(Employee))]
+        public XPCollection<Employee> DataSourceOwners
+        { get { return GetCollection<Employee>("DataSourceOwners"); } }
 
-        public int Id
-        {
-            get { return id; }
-            set
-            {
-                int oldValue = Id;
-                if (oldValue == value) return;
-                id = value;
-                OnChanged("Id", oldValue, value);
-            }
-        }
+        [Association("DataSourceAccount", typeof(Account))]
+        public XPCollection<Account> AccountsSupportedByThisDataSource
+        { get { return GetCollection<Account>("AccountsSupportedByThisDataSource"); } }
 
-        private string subjectArea;
-        [Size(SizeAttribute.Unlimited)]
-        public string SubjectArea
-        {
-            get { return subjectArea; }
-            set
-            {
-                string oldValue = SubjectArea;
-                if (oldValue == value) return;
-                subjectArea = value;
-                OnChanged("SubjectArea", oldValue, value);
-            }
-        }
+        [Association("DataTableDataSource", typeof(DataTable))]
+        public XPCollection<DataTable> AssociatedDataTables
+        { get { return GetCollection<DataTable>("AssociatedDataTables"); } }
+
+        [Association("MasterDataDataSource", typeof(MasterData))]
+        public XPCollection<MasterData> AssociatedMasterData
+        { get { return GetCollection<MasterData>("AssociatedMasterData"); } }
+
+
+
 
         private string category;
         [Size(SizeAttribute.Unlimited)]
@@ -93,6 +88,48 @@ namespace DataExplorer.Module.BusinessObjects
                 if (oldValue == value) return;
                 category = value;
                 OnChanged("Category", oldValue, value);
+            }
+        }
+
+        private string dataSourceInstance;
+        [Size(SizeAttribute.Unlimited)]
+        public string DataSourceInstance
+        {
+            get { return dataSourceInstance; }
+            set
+            {
+                string oldValue = DataSourceInstance;
+                if (oldValue == value) return;
+                dataSourceInstance = value;
+                OnChanged("DataSourceInstance", oldValue, value);
+            }
+        }
+
+        private string systemTeam;
+        [Size(SizeAttribute.Unlimited)]
+        public string SystemTeam
+        {
+            get { return systemTeam; }
+            set
+            {
+                string oldValue = SystemTeam;
+                if (oldValue == value) return;
+                systemTeam = value;
+                OnChanged("SystemTeam", oldValue, value);
+            }
+        }
+
+        private string systemOwner;
+        [Size(SizeAttribute.Unlimited)]
+        public string SystemOwner
+        {
+            get { return systemOwner; }
+            set
+            {
+                string oldValue = SystemOwner;
+                if (oldValue == value) return;
+                systemOwner = value;
+                OnChanged("SystemOwner", oldValue, value);
             }
         }
 
@@ -110,131 +147,92 @@ namespace DataExplorer.Module.BusinessObjects
             }
         }
 
-        private string intVarendedUse;
+        private string sourceSystemLocation;
         [Size(SizeAttribute.Unlimited)]
-        public string IntVarendedUse
+        public string SourceSystemLocation
         {
-            get { return intVarendedUse; }
+            get { return sourceSystemLocation; }
             set
             {
-                string oldValue = IntVarendedUse;
+                string oldValue = SourceSystemLocation;
                 if (oldValue == value) return;
-                intVarendedUse = value;
-                OnChanged("IntVarendedUse", oldValue, value);
+                sourceSystemLocation = value;
+                OnChanged("SourceSystemLocation", oldValue, value);
             }
         }
 
-        private string source;
+        private string sourceSystemNetworkSegment;
         [Size(SizeAttribute.Unlimited)]
-        public string Source
+        public string SourceSystemNetworkSegment
         {
-            get { return source; }
+            get { return sourceSystemNetworkSegment; }
             set
             {
-                string oldValue = Source;
+                string oldValue = SourceSystemNetworkSegment;
                 if (oldValue == value) return;
-                source = value;
-                OnChanged("Source", oldValue, value);
+                sourceSystemNetworkSegment = value;
+                OnChanged("SourceSystemNetworkSegment", oldValue, value);
             }
         }
 
-        private string accountableDataOwner;
+        private string sourceSystemOsType;
         [Size(SizeAttribute.Unlimited)]
-        public string AccountableDataOwner
+        public string SourceSystemOsType
         {
-            get { return accountableDataOwner; }
+            get { return sourceSystemOsType; }
             set
             {
-                string oldValue = AccountableDataOwner;
+                string oldValue = SourceSystemOsType;
                 if (oldValue == value) return;
-                accountableDataOwner = value;
-                OnChanged("AccountableDataOwner", oldValue, value);
+                sourceSystemOsType = value;
+                OnChanged("SourceSystemOsType", oldValue, value);
             }
         }
 
-        private string dataOwner;
+        private string sourceDatabaseName;
         [Size(SizeAttribute.Unlimited)]
-        public string DataOwner
+        public string SourceDatabaseName
         {
-            get { return dataOwner; }
+            get { return sourceDatabaseName; }
             set
             {
-                string oldValue = DataOwner;
+                string oldValue = SourceDatabaseName;
                 if (oldValue == value) return;
-                dataOwner = value;
-                OnChanged("DataOwner", oldValue, value);
+                sourceDatabaseName = value;
+                OnChanged("SourceDatabaseName", oldValue, value);
             }
         }
 
-        private string accessPoint;
+        private string sourceDatabaseType;
         [Size(SizeAttribute.Unlimited)]
-        public string AccessPoint
+        public string SourceDatabaseType
         {
-            get { return accessPoint; }
+            get { return sourceDatabaseType; }
             set
             {
-                string oldValue = AccessPoint;
+                string oldValue = SourceDatabaseType;
                 if (oldValue == value) return;
-                accessPoint = value;
-                OnChanged("AccessPoint", oldValue, value);
+                sourceDatabaseType = value;
+                OnChanged("SourceDatabaseType", oldValue, value);
             }
         }
 
-        private string toolTechnicalSupport;
+        private string sourceDatabaseVersion;
         [Size(SizeAttribute.Unlimited)]
-        public string ToolTechnicalSupport
+        public string SourceDatabaseVersion
         {
-            get { return toolTechnicalSupport; }
+            get { return sourceDatabaseVersion; }
             set
             {
-                string oldValue = ToolTechnicalSupport;
+                string oldValue = SourceDatabaseVersion;
                 if (oldValue == value) return;
-                toolTechnicalSupport = value;
-                OnChanged("ToolTechnicalSupport", oldValue, value);
+                sourceDatabaseVersion = value;
+                OnChanged("SourceDatabaseVersion", oldValue, value);
             }
         }
-
-        private string alternativeSource;
-        [Size(SizeAttribute.Unlimited)]
-        public string AlternativeSource
-        {
-            get { return alternativeSource; }
-            set
-            {
-                string oldValue = AlternativeSource;
-                if (oldValue == value) return;
-                alternativeSource = value;
-                OnChanged("AlternativeSource", oldValue, value);
-            }
-        }
-
-        private string issue;
-        [Size(SizeAttribute.Unlimited)]
-        public string Issue
-        {
-            get { return issue; }
-            set
-            {
-                string oldValue = Issue;
-                if (oldValue == value) return;
-                issue = value;
-                OnChanged("Issue", oldValue, value);
-            }
-        }
-
-        private string action;
-        [Size(SizeAttribute.Unlimited)]
-        public string Action
-        {
-            get { return action; }
-            set
-            {
-                string oldValue = Action;
-                if (oldValue == value) return;
-                action = value;
-                OnChanged("Action", oldValue, value);
-            }
-        }
+        
+        
+       
 
         private string isNewRecord;
         [Size(SizeAttribute.Unlimited)]

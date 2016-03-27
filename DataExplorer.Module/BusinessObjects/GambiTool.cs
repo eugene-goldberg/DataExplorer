@@ -50,6 +50,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Entity> ReliesOnEntities
         { get { return GetCollection<Entity>("ReliesOnEntities"); } }
 
+        [Association("DataSourceGambiTool", typeof(DataSource))]
+        public XPCollection<DataSource> SupportingDataSources
+        { get { return GetCollection<DataSource>("SupportingDataSources"); } }
+
         [Association("GambiToolEmployee", typeof(Employee))]
         public XPCollection<Employee> ToolOwners
         { get { return GetCollection<Employee>("ToolOwners"); } }
@@ -57,6 +61,10 @@ namespace DataExplorer.Module.BusinessObjects
         [Association("GambiToolBusinessInitiative", typeof(BusinessInitiative))]
         public XPCollection<BusinessInitiative> SupportsBusinessInitiatives
         { get { return GetCollection<BusinessInitiative>("SupportsBusinessInitiatives"); } }
+
+        [Association("MasterDataGambiTool", typeof(MasterData))]
+        public XPCollection<MasterData> AssociatedMasterData
+        { get { return GetCollection<MasterData>("AssociatedMasterData"); } }
 
         private string toolName;
         [Size(SizeAttribute.Unlimited)]

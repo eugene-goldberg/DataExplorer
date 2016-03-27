@@ -58,6 +58,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<SubjectArea> GovernedSubjectAreas
         { get { return GetCollection<SubjectArea>("GovernedSubjectAreas"); } }
 
+        [Association("BusinessFunctionGovernance", typeof(BusinessFunction))]
+        public XPCollection<BusinessFunction> GovernedBusinessFunctions
+        { get { return GetCollection<BusinessFunction>("GovernedBusinessFunctions"); } }
+
         private string name;
         [Size(SizeAttribute.Unlimited)]
         public string Name

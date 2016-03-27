@@ -70,6 +70,10 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<GambiTool> SupportedByGambiTools
         { get { return GetCollection<GambiTool>("SupportedByGambiTools"); } }
 
+        [Association("BusinessFunctionBusinessInitiative", typeof(BusinessFunction))]
+        public XPCollection<BusinessFunction> SponsoredByBusinessFunction
+        { get { return GetCollection<BusinessFunction>("SponsoredByBusinessFunction"); } }
+
         private string initiativeName;
         [Size(SizeAttribute.Unlimited)]
         public string InitiativeName
@@ -127,22 +131,40 @@ namespace DataExplorer.Module.BusinessObjects
             }
         }
 
-        private string currentStatus;
+        private _initiativeStatus currentStatus;
         [Size(SizeAttribute.Unlimited)]
-        public string CurrentStatus
+        public _initiativeStatus CurrentStatus
         {
             get { return currentStatus; }
             set
             {
-                string oldValue = CurrentStatus;
+                _initiativeStatus oldValue = CurrentStatus;
                 if (oldValue == value) return;
                 currentStatus = value;
                 OnChanged("CurrentStatus", oldValue, value);
             }
         }
+
+        private string isNewRecord;
+        [Size(SizeAttribute.Unlimited)]
+        public string IsNewRecord
+        {
+            get { return isNewRecord; }
+            set
+            {
+                string oldValue = IsNewRecord;
+                if (oldValue == value) return;
+                isNewRecord = value;
+                OnChanged("IsNewRecord", oldValue, value);
+            }
+        }
         
         
-        
+        public enum _initiativeStatus
+        {
+            Active,
+            Inactive
+        }        
         
     }
 }

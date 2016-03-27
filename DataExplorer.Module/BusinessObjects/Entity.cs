@@ -62,24 +62,13 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<Attribute> EntityAttributes
         { get { return GetCollection<Attribute>("EntityAttributes"); } }
 
+        [Association("EntityInformationComponent", typeof(InformationComponent))]
+        public XPCollection<InformationComponent> RelatedInformationComponents
+        { get { return GetCollection<InformationComponent>("RelatedInformationComponents"); } }
 
-        Entity _PrimaryEntity;
-
-        [Association("EntityRelationship")]
-
-        [ModelDefault("EditMask", "(000)-00"), VisibleInDetailView(false)]
-        public Entity PrimaryEntity
-        {
-
-            get { return _PrimaryEntity; }
-
-            set { SetPropertyValue("PrimaryEntity", ref _PrimaryEntity, value); }
-
-        }
-
-
-
-        [Association("EntityRelationship")]
+        [Association("DataTableEntity", typeof(DataTable))]
+        public XPCollection<DataTable> AssociatedDataTables
+        { get { return GetCollection<DataTable>("AssociatedDataTables"); } }
 
         public XPCollection<Entity> RelatedEntities
         {
@@ -101,12 +90,9 @@ namespace DataExplorer.Module.BusinessObjects
         public XPCollection<SubjectArea> EntitySubjectAreas
         { get { return GetCollection<SubjectArea>("EntitySubjectAreas"); } }
 
-        [Association("InformationComponentEntity", typeof(InformationComponent))]
-        public XPCollection<InformationComponent> EntityInformationComponents
-        { get { return GetCollection<InformationComponent>("EntityInformationComponents"); } }
-
-       
-
+        [Association("MasterDataEntity", typeof(MasterData))]
+        public XPCollection<MasterData> AssociatedMasterData
+        { get { return GetCollection<MasterData>("AssociatedMasterData"); } }
 
 
         private string entityName;
@@ -123,19 +109,34 @@ namespace DataExplorer.Module.BusinessObjects
             }
         }
 
-        private string entityDefinition;
+        private string description;
         [Size(SizeAttribute.Unlimited)]
-        public string EntityDefinition
+        public string Description
         {
-            get { return entityDefinition; }
+            get { return description; }
             set
             {
-                string oldValue = EntityDefinition;
+                string oldValue = Description;
                 if (oldValue == value) return;
-                entityDefinition = value;
-                OnChanged("EntityDefinition", oldValue, value);
+                description = value;
+                OnChanged("Description", oldValue, value);
             }
         }
+
+        private string subjectArea;
+        [Size(SizeAttribute.Unlimited)]
+        public string SubjectArea
+        {
+            get { return subjectArea; }
+            set
+            {
+                string oldValue = SubjectArea;
+                if (oldValue == value) return;
+                subjectArea = value;
+                OnChanged("SubjectArea", oldValue, value);
+            }
+        }
+        
 
         private string correspondingLdeName;
         [Size(SizeAttribute.Unlimited)]
@@ -176,20 +177,6 @@ namespace DataExplorer.Module.BusinessObjects
                 if (oldValue == value) return;
                 coverage = value;
                 OnChanged("Coverage", oldValue, value);
-            }
-        }
-
-        private string informationContext;
-        [Size(SizeAttribute.Unlimited)]
-        public string InformationContext
-        {
-            get { return informationContext; }
-            set
-            {
-                string oldValue = InformationContext;
-                if (oldValue == value) return;
-                informationContext = value;
-                OnChanged("InformationContext", oldValue, value);
             }
         }
 
